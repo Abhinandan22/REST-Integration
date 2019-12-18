@@ -1,0 +1,35 @@
+Steps to follow:-
+
+Business Rules:-
+
+(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+	var request = new sn_ws.RESTMessageV2("Other ServiceNow Instance","create_incident");
+	
+	request.setStringParameterNoEscape("sd",current.short_description);
+	request.setStringParameterNoEscape("caller",current.caller_id);
+	request.setStringParameterNoEscape("cat",current.category);
+	request.setStringParameterNoEscape("subcat",current.subcategory);
+	request.setStringParameterNoEscape("ci",current.impact);
+	request.execute();
+	
+	var response = request.execute();
+	var requestBody =request.getRequestBody();
+	var responseBody = response.getBody();
+	var httpStatus = response.getStatusCode();
+	gs.log(responseBody);
+	responseJSON = responseBody.substring(10,responseBody.length-1);
+	parsedJSON = JSON.parse(responseJSON);
+	var targetTicNumber = parsedJSON["number"];
+	var targetSys_id = parsedJSON["sys_id"];
+	
+	var logString = "TargetTicNumber - " + targetTicNumber + "\ntargetSys_id - "+ targetSys_id;
+	gs.log(logString,"BR- ServiceNowREST for Create");
+	
+	
+	
+	
+	
+})(current, previous);
