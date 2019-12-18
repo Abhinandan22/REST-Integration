@@ -1,6 +1,25 @@
 Steps to follow:-
 
-Business Rules:-
+
+
+--------> create a REST Message on the Source Instance and provide the EndPoint 
+of the Target Instance
+
+-------> Provide the Authentication type as Basic and provide the Basic Other Profile with a valid target instance user.(The user should be provided rest
+
+
+-----> create a new record with POST operation with and provide the following script :-
+
+${} -------> This will accept the dynamic values for the fields rather than the hard-coded values.
+{
+    "short_description": "${sd}",
+    "caller_id": "${caller}",
+    "category": "${cat}",
+    "subcategory": "${subcat}",
+    "impact": "${imp}"
+}
+
+Business Rules on the incident table:-
 
 (function executeRule(current, previous /*null when async*/) {
 
@@ -33,3 +52,6 @@ Business Rules:-
 	
 	
 })(current, previous);
+
+
+----> Check the logs and find the incident created and check the same in the other instance
