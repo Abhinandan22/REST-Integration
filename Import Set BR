@@ -1,0 +1,27 @@
+var request = new sn_ws.RESTMessageV2("Import Set CrINC","create_incident_import");
+	
+	request.setStringParameterNoEscape("sd",current.short_description);
+	request.setStringParameterNoEscape("caller",current.caller_id);
+	request.setStringParameterNoEscape("cat",current.category);
+	request.setStringParameterNoEscape("subcat",current.subcategory);
+	request.setStringParameterNoEscape("ci",current.cmdb_ci);
+	request.setStringParameterNoEscape("ci",current.impact);
+	request.execute();
+	
+	var response = request.execute();
+	var requestBody =request.getRequestBody();
+	var responseBody = response.getBody();
+	var httpStatus = response.getStatusCode();
+	gs.log(responseBody);
+	//responseJSON = responseBody.substring(10,responseBody.length-1);
+	parsedJSON = JSON.parse(responseJSON);
+	
+	
+	var result = parsedJSON["result"];
+	var targetTicNumber = result[0]["display_value"];
+	var targetSys_id = result[0]["sys_id"];
+	
+	current.u_client_sysid = targetSys_id;
+	
+	var logString = "TargetTicNumber - " + targetTicNumber + "\ntargetSys_id - "+ targetSys_id;
+	gs.log(logString,"import set BR");
