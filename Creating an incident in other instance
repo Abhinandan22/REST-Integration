@@ -5,8 +5,9 @@ Steps to follow:-
 --------> create a REST Message on the Source Instance and provide the EndPoint 
 of the Target Instance
 
--------> Provide the Authentication type as Basic and provide the Basic Other Profile with a valid target instance user.(The user should be provided rest
+-------> Provide the Authentication type as Basic and provide the Basic Other Profile with a valid target instance user.(The user should be provided rest_service and web_service_admin role)
 
+-------> Make sure the headers are provided in the rest message
 
 -----> create a new record with POST operation with and provide the following script :-
 
