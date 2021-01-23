@@ -1,0 +1,36 @@
+
+
+
+Create a rest call  in Source instance with end point provided in it for the target instance.Mention the type of operation like POST. Provide header. Create a new authentication user in target instance. 
+
+After BR on source table :- 
+
+(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var incBody = {
+
+        shortdesc: current.short_description.toString(),
+        callerid: current.getDisplayValue('caller_id')
+    };
+	
+	var req = JSON.stringify(incBody);
+	gs.log("REST CALL1 " + req);
+
+    //Copied from the REST Explorer on snow scripts	
+    var request = new sn_ws.RESTMessageV2();
+    request.setEndpoint('https://dev96124.service-now.com/api/now/table/incident');
+    request.setHttpMethod('POST');
+
+    //Eg. UserName="admin", Password="admin" for this code sample. User should have web_service_admin and rest_service role.
+    var user = 'rest'; // Copied the user DSID.Dont copy first or last name
+    var password = '123456'; // Password of the user to be provided
+
+    request.setBasicAuth(user, password);
+    request.setRequestHeader("Accept", "application/json");
+    request.setRequestHeader('Content-Type', 'application/json');
+    request.setRequestBody(req);
+    var response = request.execute();
+    gs.log("REST CALL " + response.getBody());
+})(current, previous);
+
