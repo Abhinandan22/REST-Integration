@@ -1,0 +1,6 @@
+--> Navigate to System Web Services and click on Create New under Inbound Integration
+--> Create a new web service and then create a new Transform Map
+--> The fields that are required can be provided here and we can use a Mapping assist to map fields from source to target table
+--> Create a new create ACL on the import set table other wise ACL constraint error will be thrown
+--> Now we can create a record using rest api explorer.
+--> We can use the endpoint in the postman and create a new user with web_service_admin role which will get captured in worknotes.
