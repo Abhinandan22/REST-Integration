@@ -1,0 +1,13 @@
+Navigate to the REST Message.
+
+Provide the Name as Weather API
+
+Endpoint : - https://api.openweathermap.org/data/2.5/weather?appid=c0c1fb6318fb7853720db372fb06c4ad&q=Delhi
+
+Open the HTTP GET Method and click on Test in the Related Link
+
+The Delhi coordinate and temp gets printed in the response 
+
+Response : - 
+
+{"coord":{"lon":77.2167,"lat":28.6667},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":294.51,"feels_like":295.74,"temp_min":293.15,"temp_max":295.93,"pressure":1013,"humidity":77},"visibility":1800,"wind":{"speed":1.73,"deg":352},"clouds":{"all":0},"dt":1613492558,"sys":{"type":1,"id":9165,"country":"IN","sunrise":1613438935,"sunset":1613479307},"timezone":19800,"id":1273294,"name":"Delhi","cod":200}
