@@ -1,0 +1,6 @@
+HTTP GET Method in the end point pass
+
+Endpoint :- https://api.openweathermap.org/data/2.5/weather?appid=c0c1fb6318fb7853720db372fb06c4ad&q=${city}  // ${city} will pass city values Dynamically
+
+Test Values : - Variable Substitutions  Name = city     Test value = Mumbai    // city is the name which gets passed in endpoint. This helps pass values dynamically. In place of Mumbai you can pass Delhi
+
