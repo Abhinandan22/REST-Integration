@@ -1,0 +1,4 @@
+var ipAddress = ''; // any value you need here
+var r = new RestMessage();
+r.setStringParameter('ipAddress', ipAddress);
+
