@@ -1,0 +1,20 @@
+Scheduled jobs :- 
+
+var responseBody;
+var requestBody; 
+var r; 
+var httpstatus; 
+	
+
+r = new sn_ws.RESTMessageV2('Weather App API', 'Weather_GET');
+
+var response = r.execute();
+//response.waitForResponse(60);
+responseBody = response.getBody();
+httpstatus = response.getStatusCode();
+gs.log("Abhi " + responseBody);
+
+var parsedResponse = JSON.parse(responseBody);
+gs.log("Abhi Loc " + parsedResponse.coord.sys.name);
+
+
