@@ -1,0 +1,23 @@
+Populate the description field in the Incident with the value returned from REST Message Response.
+
+Create a rest message and create a new Default GET 
+
+Create a new before create BR in incident table
+
+(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	
+var r = new sn_ws.RESTMessageV2('Weather App API', 'Weather_GET');
+ r.setStringParameterNoEscape('city', 'Bhadrak');
+
+ var response = r.execute();
+ var responseBody = response.getBody(); // Get the response as a String response
+ var httpStatus = response.getStatusCode();
+	
+ var locObj = JSON.parse(responseBody); //Get the response as an Object response
+		
+ current.description = locObj.name + '\n' + locObj.weather[0].main;
+
+
+})(current, previous);
