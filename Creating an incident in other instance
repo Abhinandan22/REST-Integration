@@ -7,6 +7,24 @@ of the Target Instance
 
 -------> Provide the Authentication type as Basic and provide the Basic Other Profile with a valid target instance user.(The user should be provided rest_service and web_service_admin role)
 
+User in Target Instance = User in Source Instance
+
+User ID : - Integration User
+First name :- Integration
+Last name :- User
+
+Roles :- web_service_admin , rest_service
+
+
+User in source name : - 
+
+Name : Integration User
+User Name : Integration User
+Password : Same as with other instance
+
+
+
+
 -------> Make sure the headers are provided in the rest message
 
 -----> create a new record with POST operation with and provide the following script :-
