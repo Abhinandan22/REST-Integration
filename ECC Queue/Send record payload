@@ -1,0 +1,57 @@
+After Update/ Insert BR : - 
+
+var sendRec = new RecDet_SI().details(current , current.operation() , current.getTableName());
+
+SI : - 
+
+var RecDet_SI = Class.create();
+RecDet_SI.prototype = {
+    initialize: function() {
+		this._log = new GSLog('snw.outbound.report','RecDet_SI');  // Create a system Property and then add it in GSLog to capture logs
+    },
+	
+	details : function(recObj , operation , tableName){
+		
+		var reqBody = {};
+		
+		reqBody.tableName = tableName;
+		
+		reqBody.operation = operation;
+		
+		var fields = recObj.getFields();
+		for(var i = 0; i < fields.size() ; i++) {
+			var field = fields.get(i);
+			var key = field.getName();
+			if(field.hasValue()){
+				reqBody[key] = field.getValue();
+			}
+		}
+
+		
+		delete reqBody.sys_mod_count; // If I want to delete a field from existing request which gets added to the payload
+		
+        var outMsg = new sn_ws.RESTMessageV2('Outbound to Reporting','Send to Reporting');
+		outMsg.setEndpoint('https://dev31651.service-now.com');
+		outMsg.setRequestBody(JSON.stringify(reqBody));
+		outMsg.setEccParameter('skip_sensor',true);
+        var response = outMsg.executeAsync();
+	    
+		this._log.info("ECC Request " + JSON.stringify(reqBody));
+		this._log.info("ECC Response " + response.getBody());
+		
+		return response;
+	},
+
+    type: 'RecDet_SI'
+};
+
+
+
+Request : - 
+
+<?xml version="1.0" encoding="UTF-8"?><parameters><parameter name="message_headers" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;fields/&gt;"/><parameter name="message_parameters" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;fields/&gt;"/><parameter name="skip_sensor" value="true"/><parameter name="source" value="https://dev31651.service-now.com"/><parameter name="name" value="post"/><parameter name="follow_redirect" value="true"/><parameter name="content" value="{&quot;tableName&quot;:&quot;u_my_payslip&quot;,&quot;operation&quot;:&quot;insert&quot;,&quot;u_income&quot;:&quot;50009&quot;,&quot;sys_updated_by&quot;:&quot;admin&quot;,&quot;sys_created_on&quot;:&quot;2022-01-23 09:02:40&quot;,&quot;sys_updated_on&quot;:&quot;2022-01-23 09:02:40&quot;,&quot;sys_created_by&quot;:&quot;admin&quot;,&quot;u_month&quot;:&quot;October&quot;}"/><parameter name="http_method" value="POST"/><parameter name="mid_server" value=""/><parameter name="start_time" value="1642928560930"/><parameter name="app_scope" value="global"/><parameter name="source_table" value="sys_script"/><parameter name="source_record" value="491c0c1f2f010110f564837cf699b679"/><parameter name="transaction_name" value="#3151 /u_my_payslip.do"/><parameter name="session_id" value="B28BCB582F590110F564837CF699B6DF"/><parameter name="user" value="admin"/></parameters>
+
+
+ECC Request {"tableName":"u_my_payslip","operation":"insert","u_income":"50009","sys_updated_by":"admin","sys_created_on":"2022-01-23 09:02:40","sys_updated_on":"2022-01-23 09:02:40","sys_created_by":"admin","u_month":"October"}
+
+Response : - null
