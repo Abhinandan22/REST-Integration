@@ -7,7 +7,7 @@ SI : -
 var RecDet_SI = Class.create();
 RecDet_SI.prototype = {
     initialize: function() {
-		this._log = new GSLog('snw.outbound.report','RecDet_SI');  // Create a system Property and then add it in GSLog to capture logs
+		this._log = new GSLog('snw.outbound.report','RecDet_SI');
     },
 	
 	details : function(recObj , operation , tableName){
@@ -17,6 +17,8 @@ RecDet_SI.prototype = {
 		reqBody.tableName = tableName;
 		
 		reqBody.operation = operation;
+		
+		reqBody.source = gs.getProperty('glide.servlet.uri')
 		
 		var fields = recObj.getFields();
 		for(var i = 0; i < fields.size() ; i++) {
