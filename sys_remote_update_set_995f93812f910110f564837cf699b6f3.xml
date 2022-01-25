@@ -1,0 +1,1856 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-01-25 17:51:15">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Income Project</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>01e5801b2f010110f564837cf699b674</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>995f93812f910110f564837cf699b6f3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_my_payslip_u_payslip_acceptance_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_payslip_acceptance" label="Payslip Acceptance" language="en" table="u_my_payslip"><sys_documentation action="INSERT_OR_UPDATE"><element>u_payslip_acceptance</element><help/><hint/><label>Payslip Acceptance</label><language>en</language><name>u_my_payslip</name><plural>Payslip Acceptances</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:37:16</sys_created_on><sys_id>6f9b11702f510110f564837cf699b6ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Payslip Acceptance</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_my_payslip_u_payslip_acceptance_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:37:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-705373311</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>115f5f092f910110f564837cf699b645</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e8c4e22070000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_payslip</table>
+<target_name>My Payslip.Payslip Acceptance</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>339b117051510110a6d0f79056ef68c9</update_guid>
+<update_guid_history>339b117051510110a6d0f79056ef68c9:-705373311</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_9de6675c2fd90110f564837cf699b646</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_my_reading_list&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Reading List&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	
+	var sendDetails = new RecDet_SI().details(current,current.operation(),current.getTableName());
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-23 10:31:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9de6675c2fd90110f564837cf699b646&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Reading List&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_9de6675c2fd90110f564837cf699b646&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-23 10:31:02&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9de6675c2fd90110f564837cf699b646"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2050194512</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>115f5f092f910110f564837cf699b648</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e867d41ad0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>Reading List</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>3d676b5c8fd901103413b6d9b769b416</update_guid>
+<update_guid_history>3d676b5c8fd901103413b6d9b769b416:2050194512</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e275afd82fd90110f564837cf699b61c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:38</sys_created_on><sys_id>e275afd82fd90110f564837cf699b61c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_reading_list.u_my_reading_list_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_my_reading_list">2675afd82fd90110f564837cf699b619</sys_security_acl><sys_update_name>sys_security_acl_role_e275afd82fd90110f564837cf699b61c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:38</sys_updated_on><sys_user_role display_value="u_my_reading_list_user" name="u_my_reading_list_user">9a75ab902fd90110f564837cf699b673</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>843547907</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>115f5f092f910110f564837cf699b64b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758f940000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>u_my_reading_list.u_my_reading_list_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>a675afd8f2d9011001891d02cff7c51e</update_guid>
+<update_guid_history>a675afd8f2d9011001891d02cff7c51e:843547907</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_reviews_u_bookname</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_bookname" table="u_reviews"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>BookName</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>true</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_bookname</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>u_reviews</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="u_my_reading_list">u_my_reading_list</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:23:39</sys_created_on><sys_id>6073f3d42f1d0110f564837cf699b69b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>BookName</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_reviews_u_bookname</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:52:56</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1361404094</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>155f5f092f910110f564837cf699b644</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86c83ddf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews.BookName</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>212ab71cb91d0110ee8fea35c5cc8588</update_guid>
+<update_guid_history>212ab71cb91d0110ee8fea35c5cc8588:1361404094,98e677589d1d0110ba47150fc448911c:1452891977,6873f3d4501d011035f0c18a5accbeab:-548294216</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_58071c172f410110f564837cf699b601</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>public</access><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile display_value="integration_user">8eaf66852f110110f564837cf699b65b</basic_auth_profile><basic_auth_user/><description/><name>Outbound to Reporting</name><oauth2_profile/><protocol_name/><rest_endpoint>https://dev75341.service-now.com/api/87451/inbound_from_other_instance</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-19 16:47:06</sys_created_on><sys_id>58071c172f410110f564837cf699b601</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Outbound to Reporting</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_58071c172f410110f564837cf699b601</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-25 14:35:17</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>1196680928</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>155f5f092f910110f564837cf699b647</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e91a9975d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>Outbound to Reporting</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>037232c53a110110e47d50a8dc60ae6a</update_guid>
+<update_guid_history>037232c53a110110e47d50a8dc60ae6a:1196680928,5362fe8545110110e6ea2467b18ad7f9:171717199,8d50ba85da1101106a9f190f0292a977:1987279695,b516786f02010110a42e2c0da95d3764:-258515747,7ea53c6f24010110ae96871c62825f6e:-1362498515,1b175c177d410110dbbbab0af7755634:-212548481</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_cdf03f142f1d0110f564837cf699b6d2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:47</sys_created_on><sys_id>cdf03f142f1d0110f564837cf699b6d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_reviews.u_reviews_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_reviews">01f03f142f1d0110f564837cf699b6d0</sys_security_acl><sys_update_name>sys_security_acl_role_cdf03f142f1d0110f564837cf699b6d2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:47</sys_updated_on><sys_user_role display_value="u_reviews_user" name="u_reviews_user">89f03fd02f1d0110f564837cf699b619</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>31387052</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>155f5f092f910110f564837cf699b64a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a378f00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>u_reviews.u_reviews_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>91f03f14861d0110758cf6607a3dbcd5</update_guid>
+<update_guid_history>91f03f14861d0110758cf6607a3dbcd5:31387052</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_4e6540532f010110f564837cf699b66b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="4e6540532f010110f564837cf699b66b" sys_domain="global" table="u_my_payslip" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_income</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:37:17</sys_created_on><sys_id>7f9b11702f510110f564837cf699b6c9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_my_payslip" sys_domain="global" view="Default view">4e6540532f010110f564837cf699b66b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:37:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_month</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:37:17</sys_created_on><sys_id>379b11702f510110f564837cf699b6ca</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_my_payslip" sys_domain="global" view="Default view">4e6540532f010110f564837cf699b66b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:37:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_payslip_acceptance</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:37:17</sys_created_on><sys_id>b79b11702f510110f564837cf699b6ca</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_my_payslip" sys_domain="global" view="Default view">4e6540532f010110f564837cf699b66b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:37:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_my_payslip</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-19 15:29:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4e6540532f010110f564837cf699b66b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_payslip</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_4e6540532f010110f564837cf699b66b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-19 15:29:44</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1108636343</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>155f5f092f910110f564837cf699b64d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e8c4e22580000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_payslip</table>
+<target_name>My Payslip</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>3f9b11708e51011055f306e4f93e39cb</update_guid>
+<update_guid_history>3f9b11708e51011055f306e4f93e39cb:1108636343,83a5401bb40101107c7f4b2a629c970b:-710022089,82654053140101100910ac79883ffd6f:491137191</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_my_reading_list_u_author</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_author" table="u_my_reading_list"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Author</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_author</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_my_reading_list</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:23:46</sys_created_on><sys_id>c3b5671c2fd90110f564837cf699b6c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Author</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_my_reading_list_u_author</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:23:46</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1824688401</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>195f5f092f910110f564837cf699b643</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e8676999c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list.Author</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>1fb5671c96d901102f01733f53fbebe0</update_guid>
+<update_guid_history>1fb5671c96d901102f01733f53fbebe0:1824688401</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_reviews_u_username_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_username" label="UserName" language="en" table="u_reviews"><sys_documentation action="INSERT_OR_UPDATE"><element>u_username</element><help/><hint/><label>UserName</label><language>en</language><name>u_reviews</name><plural>UserNames</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:14:04</sys_created_on><sys_id>084173542f1d0110f564837cf699b63b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UserName</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_reviews_u_username_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:14:04</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>731742565</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>195f5f092f910110f564837cf699b646</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a4a7de0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews.UserName</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>88417354b61d01101273c9f23057de59</update_guid>
+<update_guid_history>88417354b61d01101273c9f23057de59:731742565</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_2675afd82fd90110f564837cf699b61f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_my_reading_list</description><name>u_my_reading_list</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:38</sys_created_on><sys_id>2675afd82fd90110f564837cf699b61f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_reading_list</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_2675afd82fd90110f564837cf699b61f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:38</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-262196816</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>195f5f092f910110f564837cf699b649</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758fc60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>u_my_reading_list</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>6675afd83cd90110efaee278ad28ef21</update_guid>
+<update_guid_history>6675afd83cd90110efaee278ad28ef21:-262196816</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_2275afd82fd90110f564837cf699b608</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="My Reading list">2275afd82fd90110f564837cf699b605</application><filter/><name>My Reading lists</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_my_reading_list_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2275afd82fd90110f564837cf699b608</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Reading lists</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_2275afd82fd90110f564837cf699b608</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:37</sys_updated_on><table>u_my_reading_list</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>1508372192</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>195f5f092f910110f564837cf699b64c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758dea0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading lists</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>2a75afd834d901108d030af72d61dd0a</update_guid>
+<update_guid_history>2a75afd834d901108d030af72d61dd0a:1508372192</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_5ae03f142f1d0110f564837cf699b60d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Reviews</label><live_feed_enabled>false</live_feed_enabled><name>u_reviews</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:46</sys_created_on><sys_id>5ae03f142f1d0110f564837cf699b60d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reviews</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_5ae03f142f1d0110f564837cf699b60d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:46</sys_updated_on><update_access>false</update_access><user_role display_value="u_reviews_user" name="u_reviews_user">89f03fd02f1d0110f564837cf699b619</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1730009671</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>1d5f5f092f910110f564837cf699b642</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a37b9a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>d9f03f142d1d01103cdbaaf99bca1dfc</update_guid>
+<update_guid_history>d9f03f142d1d01103cdbaaf99bca1dfc:-1730009671</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_my_reading_list__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="My Reading list" language="en" table="u_my_reading_list"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>My Reading list</label><language>en</language><name>u_my_reading_list</name><plural>My Reading lists</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:39</sys_created_on><sys_id>f675afd82fd90110f564837cf699b62e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Reading list</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_my_reading_list__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:39</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-722605949</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>1d5f5f092f910110f564837cf699b645</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e867594960000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f675afd868d9011076a1deb638d4544e</update_guid>
+<update_guid_history>f675afd868d9011076a1deb638d4544e:-722605949</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_11f03f142f1d0110f564837cf699b6d6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_reviews</description><name>u_reviews</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:47</sys_created_on><sys_id>11f03f142f1d0110f564837cf699b6d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_reviews</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_11f03f142f1d0110f564837cf699b6d6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:47</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>941346635</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>1d5f5f092f910110f564837cf699b648</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a379230000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>u_reviews</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>51f03f14251d011030282b66671b03d8</update_guid>
+<update_guid_history>51f03f14251d011030282b66671b03d8:941346635</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_c5f03f142f1d0110f564837cf699b6c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Reviews</name><order/><roles>u_reviews_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c5f03f142f1d0110f564837cf699b6c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reviews</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_c5f03f142f1d0110f564837cf699b6c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:46</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>1024672592</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>1d5f5f092f910110f564837cf699b64b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a377a30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>Reviews</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>4df03f146d1d011096d69525edbcb5c5</update_guid>
+<update_guid_history>4df03f146d1d011096d69525edbcb5c5:1024672592</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_c5f03f142f1d0110f564837cf699b6c1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Reviews">89f03f142f1d0110f564837cf699b6be</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Reviews</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_reviews</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>u_reviews_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c5f03f142f1d0110f564837cf699b6c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reviews</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_c5f03f142f1d0110f564837cf699b6c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:46</sys_updated_on><timeline_page/><title>Reviews</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>754567627</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>1d5f93812f910110f564837cf699b6f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a377630000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>45f03f14f31d0110f5e4f76a851601c3</update_guid>
+<update_guid_history>45f03f14f31d0110f5e4f76a851601c3:754567627</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_reviews_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_reviews"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_reviews&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-23 11:12:47&lt;/sys_created_on&gt;&lt;sys_id&gt;9df03f142f1d0110f564837cf699b6e1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_reviews&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_reviews_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-23 11:12:47&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-284620609</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>515f5f092f910110f564837cf699b644</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a37b5b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>51f03f14f11d0110542ae18a98e649fa</update_guid>
+<update_guid_history>51f03f14f11d0110542ae18a98e649fa:-284620609</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_relationship_fc40b3142f1d0110f564837cf699b66e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;u_my_reading_list&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;u_reviews&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Reviews&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+
+	//current.addQuery("u_bookname",current.sys_id);
+	var ga = new GlideRecord("u_my_reading");
+	ga.addQuery("u_book_name",current.sys_id);
+	ga.query();
+	
+	
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field&gt;u_bookname&lt;/reference_field&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-23 11:11:19&lt;/sys_created_on&gt;&lt;sys_id&gt;fc40b3142f1d0110f564837cf699b66e&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Reviews&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_fc40b3142f1d0110f564837cf699b66e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-23 13:09:12&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=fc40b3142f1d0110f564837cf699b66e"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>602866175</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>515f5f092f910110f564837cf699b647</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e870e0d1e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>Reviews</target_name>
+<type>Relationship</type>
+<update_domain>global</update_domain>
+<update_guid>e29b0468035d01109746b6cfdaca1c91</update_guid>
+<update_guid_history>e29b0468035d01109746b6cfdaca1c91:602866175,3f4b8428265d01108294c6e05c9d835c:-1871584448,ce0b40a4685d011081358997f2c214bd:-589341201,b03a4428c05d0110aaddd4a1f91ed5c2:-403596280,3c0acce40e5d0110f5b045e5ce8acf68:-1928420943,f5a940a4525d0110b9154fbc5a339c03:567498144,6bd880e0a65d01102cda5522b8e7052f:-823401875,ab0704e0345d0110c8a8541ef8864059:-1605637745,8192c8a0205d01100a9e374ef54b894b:-1605614760,6b60ccacc51d011047519507da6ce20a:231562907,1f18bb98ed1d01102e005798f81191f4:-335573688,74357f94de1d0110c2dc68dd24e06bf3:-1499116965,3b813b14481d0110dea33a23cb4cd097:103612973,73903bd01a1d0110cce856d100f77477:-1738969083</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_09f03f142f1d0110f564837cf699b6cc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:47</sys_created_on><sys_id>09f03f142f1d0110f564837cf699b6cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_reviews.u_reviews_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_reviews">81f03f142f1d0110f564837cf699b6c9</sys_security_acl><sys_update_name>sys_security_acl_role_09f03f142f1d0110f564837cf699b6cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:47</sys_updated_on><sys_user_role display_value="u_reviews_user" name="u_reviews_user">89f03fd02f1d0110f564837cf699b619</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1495841934</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>515f5f092f910110f564837cf699b64a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a378820000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>u_reviews.u_reviews_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>41f03f14ef1d0110fc60ff8c76bbffcf</update_guid>
+<update_guid_history>41f03f14ef1d0110fc60ff8c76bbffcf:1495841934</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_0421bb142f1d0110f564837cf699b620</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="0421bb142f1d0110f564837cf699b620" sys_domain="global" table="u_reviews" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_bookname</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:23:40</sys_created_on><sys_id>2873f3d42f1d0110f564837cf699b6ad</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_reviews" sys_domain="global" view="Default view">0421bb142f1d0110f564837cf699b620</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:23:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_username</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:23:40</sys_created_on><sys_id>a873f3d42f1d0110f564837cf699b6ad</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_reviews" sys_domain="global" view="Default view">0421bb142f1d0110f564837cf699b620</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:23:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_reviews</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:23:40</sys_created_on><sys_id>2c73f3d42f1d0110f564837cf699b6ad</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_reviews" sys_domain="global" view="Default view">0421bb142f1d0110f564837cf699b620</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:23:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_stars</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:23:40</sys_created_on><sys_id>ac73f3d42f1d0110f564837cf699b6ad</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_reviews" sys_domain="global" view="Default view">0421bb142f1d0110f564837cf699b620</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:23:40</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_reviews</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:13:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0421bb142f1d0110f564837cf699b620</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_reviews</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_0421bb142f1d0110f564837cf699b620</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:13:32</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1050001141</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>515f5f092f910110f564837cf699b64d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86ad70740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>a073f3d4371d01100ec42214799ed6af</update_guid>
+<update_guid_history>a073f3d4371d01100ec42214799ed6af:1050001141,8c417354cb1d0110d44f2e771e3f545e:104835320,0c21bb14291d01104f5ef2b813419522:-838067171</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_my_reading_list_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_my_reading_list"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_my_reading_list&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-23 10:22:38&lt;/sys_created_on&gt;&lt;sys_id&gt;e275afd82fd90110f564837cf699b625&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_my_reading_list&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_my_reading_list_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-23 10:22:38&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>657896872</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>555f5f092f910110f564837cf699b643</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e867594650000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>fe75afd848d901108c889952ef71cb4c</update_guid>
+<update_guid_history>fe75afd848d901108c889952ef71cb4c:657896872</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_reviews_u_stars_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_stars" label="Stars" language="en" table="u_reviews"><sys_documentation action="INSERT_OR_UPDATE"><element>u_stars</element><help/><hint/><label>Stars</label><language>en</language><name>u_reviews</name><plural>Stars</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:14:04</sys_created_on><sys_id>0c4173542f1d0110f564837cf699b632</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Stars</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_reviews_u_stars_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:14:04</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2067398358</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>555f5f092f910110f564837cf699b646</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a4a8000000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews.Stars</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>844173546a1d0110635f9fa3b83a9f5c</update_guid>
+<update_guid_history>844173546a1d0110635f9fa3b83a9f5c:-2067398358</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_2675afd82fd90110f564837cf699b619</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_my_reading_list</description><name>u_my_reading_list</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:38</sys_created_on><sys_id>2675afd82fd90110f564837cf699b619</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_reading_list</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_2675afd82fd90110f564837cf699b619</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:38</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1008364606</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>555f5f092f910110f564837cf699b649</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758f590000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>u_my_reading_list</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>6675afd890d9011083a0fb8f1a8d171b</update_guid>
+<update_guid_history>6675afd890d9011083a0fb8f1a8d171b:-1008364606</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_reviews_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_reviews" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_bookname</element><list_id display_value="u_reviews" element="NULL" name="u_reviews" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">eca7b7982f1d0110f564837cf699b664</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:41:57</sys_created_on><sys_id>a8a7b7982f1d0110f564837cf699b665</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:41:57</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_reviews</element><list_id display_value="u_reviews" element="NULL" name="u_reviews" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">eca7b7982f1d0110f564837cf699b664</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:41:57</sys_created_on><sys_id>2ca7b7982f1d0110f564837cf699b665</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:41:57</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_stars</element><list_id display_value="u_reviews" element="NULL" name="u_reviews" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">eca7b7982f1d0110f564837cf699b664</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:41:57</sys_created_on><sys_id>aca7b7982f1d0110f564837cf699b665</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:41:57</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_reviews</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:41:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>eca7b7982f1d0110f564837cf699b664</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_reviews</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_reviews_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:41:57</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>1865029749</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>555f5f092f910110f564837cf699b64c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86be2d4f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>28a7b798941d01105c5430ba88e9ab67</update_guid>
+<update_guid_history>28a7b798941d01105c5430ba88e9ab67:1865029749,a3877b58a51d0110bda2d0677d2d6288:2131569861,7326f358ee1d0110bba91f115ffe56f8:-1307665279,e501bf14621d0110a153af3775098663:-1238685931</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_my_reading_list_u_status_of_reading</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_status_of_reading" table="u_my_reading_list" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>u_status_of_reading</element><name>u_my_reading_list</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:44:27</sys_created_on><sys_id>744d59702f510110f564837cf699b66f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_status_of_reading</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_my_reading_list_u_status_of_reading</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:44:27</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status_of_reading</element><hint/><inactive>false</inactive><label>Rented</label><language>en</language><name>u_my_reading_list</name><sequence>0</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:44:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a84d59702f510110f564837cf699b66e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:44:27</sys_updated_on><value>Rented</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status_of_reading</element><hint/><inactive>false</inactive><label>Reading(In Progress)</label><language>en</language><name>u_my_reading_list</name><sequence>1</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:44:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>304d59702f510110f564837cf699b671</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:44:27</sys_updated_on><value>Reading(In Progress)</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status_of_reading</element><hint/><inactive>false</inactive><label>Return in 15 days</label><language>en</language><name>u_my_reading_list</name><sequence>2</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:44:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f04d59702f510110f564837cf699b672</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:44:27</sys_updated_on><value>Return in 15 days</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status_of_reading</element><hint/><inactive>false</inactive><label>Return in a Month</label><language>en</language><name>u_my_reading_list</name><sequence>3</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:44:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f84d19b02f510110f564837cf699b65d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:44:27</sys_updated_on><value>Return in a Month</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status_of_reading</element><hint/><inactive>false</inactive><label>Lost</label><language>en</language><name>u_my_reading_list</name><sequence>4</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:44:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bc4d19b02f510110f564837cf699b65e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:44:27</sys_updated_on><value>Lost</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>63921726</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>555f93812f910110f564837cf699b6f5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e8c54b0d40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list.Status of Reading</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>304d19b0555101108e861008d28aad61</update_guid>
+<update_guid_history>304d19b0555101108e861008d28aad61:63921726</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_my_reading_list_u_status_of_reading_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_status_of_reading" label="Status of Reading" language="en" table="u_my_reading_list"><sys_documentation action="INSERT_OR_UPDATE"><element>u_status_of_reading</element><help/><hint/><label>Status of Reading</label><language>en</language><name>u_my_reading_list</name><plural>Status of Readings</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:43:16</sys_created_on><sys_id>67fc15b02f510110f564837cf699b6d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Status of Reading</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_my_reading_list_u_status_of_reading_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:43:16</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1715351261</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>595f5f092f910110f564837cf699b645</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e8c539df20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list.Status of Reading</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>abfc15b091510110d9a0fd184c9f11fd</update_guid>
+<update_guid_history>abfc15b091510110d9a0fd184c9f11fd:1715351261</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_01f03f142f1d0110f564837cf699b6d0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_reviews</description><name>u_reviews</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:47</sys_created_on><sys_id>01f03f142f1d0110f564837cf699b6d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_reviews</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_01f03f142f1d0110f564837cf699b6d0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:47</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>594621199</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>595f5f092f910110f564837cf699b648</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a378b60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>u_reviews</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>41f03f146b1d01106dff11bb2f13e1d2</update_guid>
+<update_guid_history>41f03f146b1d01106dff11bb2f13e1d2:594621199</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_2275afd82fd90110f564837cf699b605</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>My Reading list</name><order/><roles>u_my_reading_list_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2275afd82fd90110f564837cf699b605</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Reading list</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_2275afd82fd90110f564837cf699b605</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:37</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>-494535481</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>595f5f092f910110f564837cf699b64b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758d8c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>My Reading list</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>a275afd875d901102affb67758e9d007</update_guid>
+<update_guid_history>a275afd875d901102affb67758e9d007:-494535481</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_6275afd82fd90110f564837cf699b601</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="My Reading list">1a756fd82fd90110f564837cf699b6fd</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>My Reading lists</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_my_reading_list</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>u_my_reading_list_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6275afd82fd90110f564837cf699b601</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Reading lists</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_6275afd82fd90110f564837cf699b601</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:37</sys_updated_on><timeline_page/><title>My Reading lists</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>812040648</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>595f93812f910110f564837cf699b6f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758d410000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading lists</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>ae75afd888d90110deced23716769603</update_guid>
+<update_guid_history>ae75afd888d90110deced23716769603:812040648</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_reviews_u_username</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_username" table="u_reviews"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>UserName</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_username</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_reviews</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:14:04</sys_created_on><sys_id>c44173542f1d0110f564837cf699b639</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UserName</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_reviews_u_username</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:14:04</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1679771923</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>5d5f5f092f910110f564837cf699b644</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a4a77a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews.UserName</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>00417354eb1d01101dd82450630c0355</update_guid>
+<update_guid_history>00417354eb1d01101dd82450630c0355:-1679771923</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_491c0c1f2f010110f564837cf699b679</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_my_payslip&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Payslip Details for Reporting&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	
+	var sendRec = new RecDet_SI().details(current , current.operation() , current.getTableName());
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-19 16:00:08&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;491c0c1f2f010110f564837cf699b679&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Payslip Details for Reporting&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_491c0c1f2f010110f564837cf699b679&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-22 16:04:03&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=491c0c1f2f010110f564837cf699b679"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-321301215</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>5d5f5f092f910110f564837cf699b647</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e8287c9900000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_payslip</table>
+<target_name>Payslip Details for Reporting</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>920a2784e3110110427fd53c3ada2371</update_guid>
+<update_guid_history>920a2784e3110110427fd53c3ada2371:-321301215,2321d413f9410110c74b16d364bfa033:-595112533,2aaf44df390101108e285c0eb6c64acd:-414633778,808ccc1f5d0101109570b35aff416225:1458979419,af5c005fae010110cc631dd3340f9201:1026927150</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e275afd82fd90110f564837cf699b616</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:38</sys_created_on><sys_id>e275afd82fd90110f564837cf699b616</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_reading_list.u_my_reading_list_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_my_reading_list">2675afd82fd90110f564837cf699b613</sys_security_acl><sys_update_name>sys_security_acl_role_e275afd82fd90110f564837cf699b616</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:38</sys_updated_on><sys_user_role display_value="u_my_reading_list_user" name="u_my_reading_list_user">9a75ab902fd90110f564837cf699b673</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>490070269</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>5d5f5f092f910110f564837cf699b64a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758f2b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>u_my_reading_list.u_my_reading_list_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>a675afd84bd901106a3df0fdff15a018</update_guid>
+<update_guid_history>a675afd84bd901106a3df0fdff15a018:490070269</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_9a75ab902fd90110f564837cf699b673</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_my_reading_list_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:37</sys_created_on><sys_id>9a75ab902fd90110f564837cf699b673</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_reading_list_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_9a75ab902fd90110f564837cf699b673</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:37</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-1919720362</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>5d5f5f092f910110f564837cf699b64d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758bac0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>u_my_reading_list_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>1e75ab90a0d9011056663c12b4050878</update_guid>
+<update_guid_history>1e75ab90a0d9011056663c12b4050878:-1919720362</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_my_payslip_u_payslip_acceptance</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_payslip_acceptance" table="u_my_payslip"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Payslip Acceptance</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_payslip_acceptance</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_my_payslip</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:37:16</sys_created_on><sys_id>e39b11702f510110f564837cf699b6a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Payslip Acceptance</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_my_payslip_u_payslip_acceptance</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:37:16</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1457508106</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>915f5f092f910110f564837cf699b643</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e8c4e21e20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_payslip</table>
+<target_name>My Payslip.Payslip Acceptance</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>bb9b11706e5101109d0bba3532f937c7</update_guid>
+<update_guid_history>bb9b11706e5101109d0bba3532f937c7:1457508106</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_reviews_u_reviews_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_reviews" label="Reviews" language="en" table="u_reviews"><sys_documentation action="INSERT_OR_UPDATE"><element>u_reviews</element><help/><hint/><label>Reviews</label><language>en</language><name>u_reviews</name><plural>Reviews</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:14:04</sys_created_on><sys_id>804173542f1d0110f564837cf699b637</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reviews</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_reviews_u_reviews_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:14:04</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1860421046</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>915f5f092f910110f564837cf699b646</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a4a7ee0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews.Reviews</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>00417354fd1d01109f737d4e625eab5b</update_guid>
+<update_guid_history>00417354fd1d01109f737d4e625eab5b:1860421046</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_2675afd82fd90110f564837cf699b613</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_my_reading_list</description><name>u_my_reading_list</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:38</sys_created_on><sys_id>2675afd82fd90110f564837cf699b613</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_reading_list</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_2675afd82fd90110f564837cf699b613</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:38</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1582615430</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>915f5f092f910110f564837cf699b649</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758f020000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>u_my_reading_list</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>6675afd890d901102ed7f71d2c6c3315</update_guid>
+<update_guid_history>6675afd890d901102ed7f71d2c6c3315:1582615430</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_my_reading_list_sys_ref_list</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_my_reading_list" version="2" view="sys_ref_list"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_book_name</element><list_id display_value="u_my_reading_list" element="NULL" name="u_my_reading_list" parent="NULL" relationship="NULL" sys_domain="global" view="17bdd243a9223010c0a065f439e6610b">294677582f1d0110f564837cf699b669</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:36:01</sys_created_on><sys_id>e14677582f1d0110f564837cf699b66a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:36:01</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_my_reading_list</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:36:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>294677582f1d0110f564837cf699b669</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_reading_list</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_my_reading_list_sys_ref_list</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:36:01</sys_updated_on><sys_user/><view display_value="Reference List" name="sys_ref_list">17bdd243a9223010c0a065f439e6610b</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-1924960239</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>915f5f092f910110f564837cf699b64c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86b8c0ec0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>e9467758611d01107a407522146ac66b</update_guid>
+<update_guid_history>e9467758611d01107a407522146ac66b:-1924960239,a1463758ef1d011008fdc09670e20f94:-238809525</update_guid_history>
+<update_set display_value=""/>
+<view>sys_ref_list</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_my_payslip_u_payslip_acceptance</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_payslip_acceptance" table="u_my_payslip" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>u_payslip_acceptance</element><name>u_my_payslip</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-25 17:08:35</sys_created_on><sys_id>20955f0d2f510110f564837cf699b6d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_payslip_acceptance</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_my_payslip_u_payslip_acceptance</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-25 17:08:35</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_payslip_acceptance</element><hint/><inactive>false</inactive><label>Yes</label><language>en</language><name>u_my_payslip</name><sequence>0</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-25 17:08:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>54955f0d2f510110f564837cf699b6d5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-25 17:08:35</sys_updated_on><value>Yes</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_payslip_acceptance</element><hint/><inactive>false</inactive><label>Check with HR</label><language>en</language><name>u_my_payslip</name><sequence>1</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-25 17:08:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>68959b412f910110f564837cf699b6fe</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-25 17:08:35</sys_updated_on><value>Check with HR</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_payslip_acceptance</element><hint/><inactive>false</inactive><label>Not Received</label><language>en</language><name>u_my_payslip</name><sequence>2</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-25 17:08:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2c959b412f910110f564837cf699b6ff</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-25 17:08:35</sys_updated_on><value>Not Received</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_payslip_acceptance</element><hint/><inactive>false</inactive><label>Salary Incorrect</label><language>en</language><name>u_my_payslip</name><sequence>3</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-25 17:08:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ec95db412f910110f564837cf699b600</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-25 17:08:35</sys_updated_on><value>Salary Incorrect</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>1314745619</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>915f93812f910110f564837cf699b6f5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e9235f0860000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_payslip</table>
+<target_name>My Payslip.Payslip Acceptance</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>a095db418a910110fd481bbc990d0703</update_guid>
+<update_guid_history>a095db418a910110fd481bbc990d0703:1314745619</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_my_reading_list_u_book_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_book_name" label="Book Name" language="en" table="u_my_reading_list"><sys_documentation action="INSERT_OR_UPDATE"><element>u_book_name</element><help/><hint/><label>Book Name</label><language>en</language><name>u_my_reading_list</name><plural>Book Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:23:46</sys_created_on><sys_id>47b5671c2fd90110f564837cf699b607</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Book Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_my_reading_list_u_book_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:23:46</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>770967645</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>955f5f092f910110f564837cf699b645</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e867699ba0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list.Book Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>53b5671c7ad90110072953d07de964e2</update_guid>
+<update_guid_history>53b5671c7ad90110072953d07de964e2:770967645</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_f5d901f02f110110f564837cf699b67f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.BuildOutbound_SI&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;BuildOutbound_SI&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var BuildOutbound_SI = Class.create();
+BuildOutbound_SI.prototype = {
+    initialize: function() {
+    },
+	
+	
+
+    type: 'BuildOutbound_SI'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-24 12:20:00&lt;/sys_created_on&gt;&lt;sys_id&gt;f5d901f02f110110f564837cf699b67f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;BuildOutbound_SI&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_f5d901f02f110110f564837cf699b67f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-24 12:20:00&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1356623364</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>955f5f092f910110f564837cf699b648</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e8c075ea30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>BuildOutbound_SI</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>6be94df0b311011088443d8fcd1994e5</update_guid>
+<update_guid_history>6be94df0b311011088443d8fcd1994e5:1356623364</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e675afd82fd90110f564837cf699b60f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:38</sys_created_on><sys_id>e675afd82fd90110f564837cf699b60f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_reading_list.u_my_reading_list_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_my_reading_list">6a75afd82fd90110f564837cf699b60b</sys_security_acl><sys_update_name>sys_security_acl_role_e675afd82fd90110f564837cf699b60f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:38</sys_updated_on><sys_user_role display_value="u_my_reading_list_user" name="u_my_reading_list_user">9a75ab902fd90110f564837cf699b673</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-2048586380</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>955f5f092f910110f564837cf699b64b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758ed40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>u_my_reading_list.u_my_reading_list_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>6675afd817d901106466119c163ea412</update_guid>
+<update_guid_history>6675afd817d901106466119c163ea412:-2048586380</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_89f03f142f1d0110f564837cf699b6be</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Reviews</name><order>100</order><roles>u_reviews_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>89f03f142f1d0110f564837cf699b6be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reviews</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_89f03f142f1d0110f564837cf699b6be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:46</sys_updated_on><title>Reviews</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>1521151005</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>955f93812f910110f564837cf699b6f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a3771e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>Reviews</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>49f03f14831d0110110c90d4cc2171c0</update_guid>
+<update_guid_history>49f03f14831d0110110c90d4cc2171c0:1521151005</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_reviews_u_stars</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_stars" table="u_reviews"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Stars</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_stars</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_reviews</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:14:04</sys_created_on><sys_id>084133542f1d0110f564837cf699b6cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Stars</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_reviews_u_stars</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:14:04</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>813664497</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>995f5f092f910110f564837cf699b644</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a4a7cd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews.Stars</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>844173543a1d01100238ae7be76ea258</update_guid>
+<update_guid_history>844173543a1d01100238ae7be76ea258:813664497</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_b8a7d0572f410110f564837cf699b68c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile display_value="integration_user">8eaf66852f110110f564837cf699b65b</basic_auth_profile><basic_auth_user/><content/><function_name>Send to Reporting</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name display_value="integration_user">9b7a79f42f910110f564837cf699b639</protocol_name><qualified_name>Outbound to Reporting [ Send to Reporting ]</qualified_name><rest_endpoint>https://dev75341.service-now.com/api/87451/inbound_from_other_instance</rest_endpoint><rest_message display_value="Outbound to Reporting">58071c172f410110f564837cf699b601</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-19 16:49:41</sys_created_on><sys_id>b8a7d0572f410110f564837cf699b68c</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Send to Reporting</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_b8a7d0572f410110f564837cf699b68c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-25 14:26:45</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>1363444497</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>995f5f092f910110f564837cf699b647</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e91a1c6b20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>Send to Reporting</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>7d80fe85a8110110cf0d20d2f57d00f2</update_guid>
+<update_guid_history>7d80fe85a8110110cf0d20d2f57d00f2:1363444497,99cfa68594110110d7b31f0b07c491aa:1618609634,2b9af174b69101107412bece638546e1:888863544,839cdd70ed51011077f2b2c74953cbc5:-1008915295,0a8c4de76d4101102876738c0e1ba9e4:-96627329,10363c6f690101102e8cc1bbe154e1a3:-1074975456,8db714575d410110e3e090abcdb0c67c:1456040432</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_ddf03f142f1d0110f564837cf699b6de</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:47</sys_created_on><sys_id>ddf03f142f1d0110f564837cf699b6de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_reviews.u_reviews_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_reviews">11f03f142f1d0110f564837cf699b6dc</sys_security_acl><sys_update_name>sys_security_acl_role_ddf03f142f1d0110f564837cf699b6de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:47</sys_updated_on><sys_user_role display_value="u_reviews_user" name="u_reviews_user">89f03fd02f1d0110f564837cf699b619</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1207074238</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>995f5f092f910110f564837cf699b64a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a379c30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>u_reviews.u_reviews_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>91f03f14e21d0110fac16942969f3de1</update_guid>
+<update_guid_history>91f03f14e21d0110fac16942969f3de1:1207074238</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_89f03fd02f1d0110f564837cf699b619</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_reviews_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:46</sys_created_on><sys_id>89f03fd02f1d0110f564837cf699b619</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_reviews_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_89f03fd02f1d0110f564837cf699b619</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:46</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-413499018</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>995f5f092f910110f564837cf699b64d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a376730000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>u_reviews_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>49f03f14a31d011065b26256a49496bb</update_guid>
+<update_guid_history>49f03f14a31d011065b26256a49496bb:-413499018</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_my_reading_list_u_status_of_reading</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_status_of_reading" table="u_my_reading_list"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Status of Reading</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_status_of_reading</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_my_reading_list</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:43:16</sys_created_on><sys_id>6bfc15b02f510110f564837cf699b6d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Status of Reading</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_my_reading_list_u_status_of_reading</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:43:16</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-763437118</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>9d5f5f092f910110f564837cf699b643</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e8c539dd70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list.Status of Reading</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a7fc15b02d51011052c49c1f1f1bb8fc</update_guid>
+<update_guid_history>a7fc15b02d51011052c49c1f1f1bb8fc:-763437118</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_2835378c2f110110f564837cf699b6fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Property to set log for Reporting outbound log</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>snw.outbound.report</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-22 16:53:56</sys_created_on><sys_id>2835378c2f110110f564837cf699b6fd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>snw.outbound.report</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_2835378c2f110110f564837cf699b6fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 12:28:49</sys_updated_on><type>string</type><value>{{xxDDDKeKDKALDKFL{gljkdlks}</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=2835378c2f110110f564837cf699b6fd"/></record_update>]]></payload>
+<payload_hash>-769683767</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>9d5f5f092f910110f564837cf699b646</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e8c0f7c2c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>snw.outbound.report</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>e9fb4574ad11011042c0c49ccc3ecf83</update_guid>
+<update_guid_history>e9fb4574ad11011042c0c49ccc3ecf83:-769683767,09757b44641101104a5be3e88ad71ac5:-1940724909</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_81f03f142f1d0110f564837cf699b6c9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_reviews</description><name>u_reviews</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:47</sys_created_on><sys_id>81f03f142f1d0110f564837cf699b6c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_reviews</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_81f03f142f1d0110f564837cf699b6c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:47</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1985006683</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>9d5f5f092f910110f564837cf699b649</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a3783e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>u_reviews</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>49f03f141f1d01100d971ecff3c8e8cb</update_guid>
+<update_guid_history>49f03f141f1d01100d971ecff3c8e8cb:1985006683</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_related_u_my_reading_list_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="u_my_reading_list" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="My Reading list - Default view" name="u_my_reading_list" related_list="NULL" sys_domain="global" view="Default view">0251fb142f1d0110f564837cf699b67f</list_id><order_by/><position>0</position><related_list>REL:fc40b3142f1d0110f564837cf699b66e</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:14:29</sys_created_on><sys_id>0e51fb142f1d0110f564837cf699b67f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:14:29</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>My Reading list - Default view</calculated_name><filter/><name>u_my_reading_list</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:14:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0251fb142f1d0110f564837cf699b67f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Reading list - Default view</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_related_u_my_reading_list_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:14:29</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+<payload_hash>-1595412794</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>9d5f5f092f910110f564837cf699b64c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a506910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list</target_name>
+<type>Related Lists</type>
+<update_domain>global</update_domain>
+<update_guid>0251fb14651d01103f85c5e337733781</update_guid>
+<update_guid_history>0251fb14651d01103f85c5e337733781:-1595412794,18d0bb14c51d0110fac27782d2433b52:1933454657,f5b07b148d1d0110a7971403a8e1b80a:1382800456</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_1a756fd82fd90110f564837cf699b6fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>My Reading list</name><order>100</order><roles>u_my_reading_list_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1a756fd82fd90110f564837cf699b6fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Reading list</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_1a756fd82fd90110f564837cf699b6fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:37</sys_updated_on><title>My Reading list</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-90724043</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>9d5f93812f910110f564837cf699b6f3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758cd60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>My Reading list</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>d275afd867d901108aeaee76f5ce7e00</update_guid>
+<update_guid_history>d275afd867d901108aeaee76f5ce7e00:-90724043</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_my_reading_list_u_author_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_author" label="Author" language="en" table="u_my_reading_list"><sys_documentation action="INSERT_OR_UPDATE"><element>u_author</element><help/><hint/><label>Author</label><language>en</language><name>u_my_reading_list</name><plural>Authors</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:23:46</sys_created_on><sys_id>07b5671c2fd90110f564837cf699b6c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Author</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_my_reading_list_u_author_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:23:46</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1210150117</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>d15f5f092f910110f564837cf699b645</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e867699d40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list.Author</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>d7b5671c40d90110f85e53fc5174dbe3</update_guid>
+<update_guid_history>d7b5671c40d90110f85e53fc5174dbe3:-1210150117</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_80bf84df2f010110f564837cf699b64c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.RecDet_SI&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;RecDet_SI&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var RecDet_SI = Class.create();
+RecDet_SI.prototype = {
+    initialize: function() {
+		this._log = new GSLog('snw.outbound.report','RecDet_SI');
+    },
+	
+	details : function(recObj , operation , tableName){
+		
+		var reqBody = {};
+		
+		reqBody.tableName = tableName;
+		
+		reqBody.operation = operation;
+		
+		reqBody.source = gs.getProperty('glide.servlet.uri');
+		
+		var fields = recObj.getFields();
+		for(var i = 0; i &lt; fields.size() ; i++) {
+			var field = fields.get(i);
+			var key = field.getName();
+			if(field.hasValue()){
+				reqBody[key] = field.getValue();
+			}
+		}
+
+		
+		delete reqBody.sys_mod_count; // If I want to delete a field from existing request which gets added to the payload
+		
+        var outMsg = new sn_ws.RESTMessageV2('Outbound to Reporting','Send to Reporting');
+		outMsg.setEndpoint('https://dev75341.service-now.com/api/87451/inbound_from_other_instance');
+		//outMsg.setRequestHeader('api-key',gs.getProperty('snw.outbound.report'));
+		outMsg.setRequestBody(JSON.stringify(reqBody));
+		outMsg.setEccParameter('skip_sensor',true);
+        var response = outMsg.executeAsync();
+	    
+		this._log.info("ECC Request " + JSON.stringify(reqBody));
+		this._log.info("ECC Response " + response.getBody());
+		
+		return response;
+	},
+
+    type: 'RecDet_SI'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-19 16:15:08&lt;/sys_created_on&gt;&lt;sys_id&gt;80bf84df2f010110f564837cf699b64c&lt;/sys_id&gt;&lt;sys_mod_count&gt;34&lt;/sys_mod_count&gt;&lt;sys_name&gt;RecDet_SI&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_80bf84df2f010110f564837cf699b64c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-25 17:11:15&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1588691084</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>d15f5f092f910110f564837cf699b648</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e923861870000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>RecDet_SI</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>a32693810a9101105f324a31aef60570</update_guid>
+<update_guid_history>a32693810a9101105f324a31aef60570:1588691084,90041b015a910110183610e18b7252d2:346855502,93f153cdb65101108f27aba7b55129f3:307373622,e993b2499a1101108c6610aff265062c:1588691084,64647db084910110156e60c95a5cdc00:-1585826243,844d857442110110b929b68635ca9391:-1795322595,947c85f01f110110cc2148a11aed9811:-973745094,6ce1b82436dd01102be3f53c52e2289a:-132502942,d970a428b29d01104d34e889cf3ce46f:838414925,8eb29bd85d9901101a0cca27ad255db9:-986526649,3ecbcbd459990110855f74a9d4f83918:1496677995,9d8b685446d10110bf25437e91491821:-153175323,154aa814eed10110ecac13279e3e87a8:-1548920963,477f84501c91011072b9603e6aae7b96:-2129708059,7bbe4c106d9101109826f6d49423c889:1117062778,9aadc81cef510110e29917ecbb5a7064:-1178268997,8efc881cf05101102299fc36c719f6d0:-1250955680,f909cc543c5101105e331cabe82a4657:1407023964,574000940e5101102e5c28203e82a3f0:954557626,7a6f3f44fd5101100d21ea8db145bb0f:-497307329,3ee87f8ca5110110502d3b5b9394460f:-322987821,c7c57b8c5a110110dab232873eb2180a:-153811595,000a6b44111101101152081b637cebb5:-103987907,9679052fca410110f48a28717f15bb39:-366063243,d16305e73a4101107e1a41523638072d:-1575018287,1182c1e7a34101105e0e3573ac0e1317:-780729287,603bbc636a410110e6408a4101bec3b4:456039926,e8ca786318410110fed55ed5216d7167:2014165089,66d8f023214101109d2a410b146fd835:1991803225,f7f6f0afb4010110b8194a4bcaa5affa:1211355347,7f48d857db410110b876867031f3aa7c:962023468,c8975c1770410110e5b036dc28b6d180:-883916604,3aa6d41777410110538066a86352b59d:-454572991,966518d393410110ace8a76c4f925f03:-1927336408,c7cf80dfd401011016bb6b9a46cacc2e:-415872446</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e275afd82fd90110f564837cf699b622</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:38</sys_created_on><sys_id>e275afd82fd90110f564837cf699b622</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_reading_list.u_my_reading_list_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_my_reading_list">2675afd82fd90110f564837cf699b61f</sys_security_acl><sys_update_name>sys_security_acl_role_e275afd82fd90110f564837cf699b622</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:38</sys_updated_on><sys_user_role display_value="u_my_reading_list_user" name="u_my_reading_list_user">9a75ab902fd90110f564837cf699b673</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-800337104</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>d15f5f092f910110f564837cf699b64b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758ff40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>u_my_reading_list.u_my_reading_list_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>a675afd8c2d901101faf51ad74544624</update_guid>
+<update_guid_history>a675afd8c2d901101faf51ad74544624:-800337104</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_reviews_u_reviews</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_reviews" table="u_reviews"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Reviews</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_reviews</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_reviews</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:14:04</sys_created_on><sys_id>404173542f1d0110f564837cf699b635</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reviews</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_reviews_u_reviews</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:14:04</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-239166083</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>d55f5f092f910110f564837cf699b644</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a4a7ac0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews.Reviews</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>c8417354261d01108c9f960c26b21c56</update_guid>
+<update_guid_history>c8417354261d01108c9f960c26b21c56:-239166083</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_93175c172f410110f564837cf699b631</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Outbound to Reporting [ Default GET ]</qualified_name><rest_endpoint>xxx</rest_endpoint><rest_message display_value="Outbound to Reporting">58071c172f410110f564837cf699b601</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-19 16:47:06</sys_created_on><sys_id>93175c172f410110f564837cf699b631</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_93175c172f410110f564837cf699b631</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-19 16:47:06</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-657420054</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>d55f5f092f910110f564837cf699b647</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e733c1dd90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>d3175c170041011007259b3575533633</update_guid>
+<update_guid_history>d3175c170041011007259b3575533633:-657420054</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_ddf03f142f1d0110f564837cf699b6d8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:47</sys_created_on><sys_id>ddf03f142f1d0110f564837cf699b6d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_reviews.u_reviews_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_reviews">11f03f142f1d0110f564837cf699b6d6</sys_security_acl><sys_update_name>sys_security_acl_role_ddf03f142f1d0110f564837cf699b6d8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:47</sys_updated_on><sys_user_role display_value="u_reviews_user" name="u_reviews_user">89f03fd02f1d0110f564837cf699b619</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>775566737</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>d55f5f092f910110f564837cf699b64a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a3795c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>u_reviews.u_reviews_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>91f03f14e61d0110acc14bfa59b20bdb</update_guid>
+<update_guid_history>91f03f14e61d0110acc14bfa59b20bdb:775566737</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_9395e3dc2f990110f564837cf699b60b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="9395e3dc2f990110f564837cf699b60b" sys_domain="global" table="u_my_reading_list" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_book_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:43:17</sys_created_on><sys_id>67fc15b02f510110f564837cf699b6fe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_my_reading_list" sys_domain="global" view="Default view">9395e3dc2f990110f564837cf699b60b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:43:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_author</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:43:17</sys_created_on><sys_id>e7fc15b02f510110f564837cf699b6fe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_my_reading_list" sys_domain="global" view="Default view">9395e3dc2f990110f564837cf699b60b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:43:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_status_of_reading</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 13:43:17</sys_created_on><sys_id>6bfc15b02f510110f564837cf699b6fe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_my_reading_list" sys_domain="global" view="Default view">9395e3dc2f990110f564837cf699b60b</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 13:43:17</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_my_reading_list</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:23:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9395e3dc2f990110f564837cf699b60b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_reading_list</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_9395e3dc2f990110f564837cf699b60b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:23:14</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-1952253327</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>d55f5f092f910110f564837cf699b64d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e8c539e240000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>2ffc15b096510110d2c04d9d07ab07ff</update_guid>
+<update_guid_history>2ffc15b096510110d2c04d9d07ab07ff:-1952253327,dfb5671cfcd90110fc066d3b583099e5:1450604623,af95631cedd901107e9b9744ccc0e819:1741488840</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_my_reading_list_u_book_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_book_name" table="u_my_reading_list"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Book Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>true</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_book_name</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_my_reading_list</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:23:46</sys_created_on><sys_id>c7b5671c2fd90110f564837cf699b605</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Book Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_my_reading_list_u_book_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 12:07:09</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1205899740</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>d95f5f092f910110f564837cf699b643</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86d53f4a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list.Book Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>ad6d7f9c381d0110ff4a3537e3e8a806</update_guid>
+<update_guid_history>ad6d7f9c381d0110ff4a3537e3e8a806:1205899740,dfb5671c1dd90110afec17a75b420cde:1429464193</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_reviews__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Reviews" language="en" table="u_reviews"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Reviews</label><language>en</language><name>u_reviews</name><plural>Reviews</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:47</sys_created_on><sys_id>95f03f142f1d0110f564837cf699b6e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reviews</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_reviews__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:47</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1713358736</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>d95f5f092f910110f564837cf699b646</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a37b7a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>95f03f14221d0110f84cdd843495f5fb</update_guid>
+<update_guid_history>95f03f14221d0110f84cdd843495f5fb:1713358736</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_6a75afd82fd90110f564837cf699b60b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_my_reading_list</description><name>u_my_reading_list</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:38</sys_created_on><sys_id>6a75afd82fd90110f564837cf699b60b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_reading_list</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_6a75afd82fd90110f564837cf699b60b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:22:38</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1377654574</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>d95f5f092f910110f564837cf699b649</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86758e7a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>u_my_reading_list</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>2a75afd8ffd90110ed07407488c5a10e</update_guid>
+<update_guid_history>2a75afd8ffd90110ed07407488c5a10e:-1377654574</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_c9f03f142f1d0110f564837cf699b6c6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Reviews">c5f03f142f1d0110f564837cf699b6c4</application><filter/><name>Reviews</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_reviews_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c9f03f142f1d0110f564837cf699b6c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reviews</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_c9f03f142f1d0110f564837cf699b6c6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:47</sys_updated_on><table>u_reviews</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-1214669094</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>d95f5f092f910110f564837cf699b64c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a377e00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>81f03f14221d01109a3ac9b152ce32c8</update_guid>
+<update_guid_history>81f03f14221d01109a3ac9b152ce32c8:-1214669094</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_bb452fd82fd90110f564837cf699b62a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>My Reading list</label><live_feed_enabled>false</live_feed_enabled><name>u_my_reading_list</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:22:37</sys_created_on><sys_id>bb452fd82fd90110f564837cf699b62a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>My Reading list</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_bb452fd82fd90110f564837cf699b62a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 12:07:09</sys_updated_on><update_access>false</update_access><user_role display_value="u_my_reading_list_user" name="u_my_reading_list_user">9a75ab902fd90110f564837cf699b673</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>393224660</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>dd5f5f092f910110f564837cf699b642</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86d540790000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>656d7f9c001d0110a8451bc65f4bed0c</update_guid>
+<update_guid_history>656d7f9c001d0110a8451bc65f4bed0c:393224660,3e75afd8e4d90110128584dacac4b14f:393224660</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_reviews_u_bookname_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_bookname" label="BookName" language="en" table="u_reviews"><sys_documentation action="INSERT_OR_UPDATE"><element>u_bookname</element><help/><hint/><label>BookName</label><language>en</language><name>u_reviews</name><plural>BookNames</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:23:39</sys_created_on><sys_id>6c73f3d42f1d0110f564837cf699b69c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BookName</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_reviews_u_bookname_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:23:39</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>824016041</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>dd5f5f092f910110f564837cf699b645</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86ad703c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>Reviews.BookName</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>6c73f3d4bf1d0110bd056f2a626c69ac</update_guid>
+<update_guid_history>6c73f3d4bf1d0110bd056f2a626c69ac:824016041</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_11f03f142f1d0110f564837cf699b6dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_reviews</description><name>u_reviews</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 11:12:47</sys_created_on><sys_id>11f03f142f1d0110f564837cf699b6dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_reviews</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_11f03f142f1d0110f564837cf699b6dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 11:12:47</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-652537031</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>dd5f5f092f910110f564837cf699b648</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e86a379900000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_reviews</table>
+<target_name>u_reviews</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>51f03f14f71d0110dd66d8d53051fede</update_guid>
+<update_guid_history>51f03f14f71d0110dd66d8d53051fede:-652537031</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_my_reading_list_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_my_reading_list" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_author</element><list_id display_value="u_my_reading_list" element="NULL" name="u_my_reading_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">17a6235c2fd90110f564837cf699b658</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:27:52</sys_created_on><sys_id>dba6235c2fd90110f564837cf699b658</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:27:52</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_book_name</element><list_id display_value="u_my_reading_list" element="NULL" name="u_my_reading_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">17a6235c2fd90110f564837cf699b658</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:27:52</sys_created_on><sys_id>5fa6235c2fd90110f564837cf699b658</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:27:52</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_created_on</element><list_id display_value="u_my_reading_list" element="NULL" name="u_my_reading_list" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">17a6235c2fd90110f564837cf699b658</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:27:52</sys_created_on><sys_id>dfa6235c2fd90110f564837cf699b658</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:27:52</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_my_reading_list</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-23 10:27:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>17a6235c2fd90110f564837cf699b658</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_my_reading_list</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_my_reading_list_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-23 10:27:52</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-370824087</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>dd5f5f092f910110f564837cf699b64b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e867a5c1c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table>u_my_reading_list</table>
+<target_name>My Reading list</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>53a6a35c96d90110e7bc833a160b554c</update_guid>
+<update_guid_history>53a6a35c96d90110e7bc833a160b554c:-370824087,de85efd8bbd901108d3a565e244bb4b1:1108407755</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_auth_profile_basic_8eaf66852f110110f564837cf699b65b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic"><sys_auth_profile_basic action="INSERT_OR_UPDATE"><name>integration_user</name><password>aeU2Dyef+pGD7WsPq8f2kQ==</password><sys_class_name>sys_auth_profile_basic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-25 14:23:19</sys_created_on><sys_id>8eaf66852f110110f564837cf699b65b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>integration_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_auth_profile_basic_8eaf66852f110110f564837cf699b65b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-25 14:23:19</sys_updated_on><username>integration_user</username></sys_auth_profile_basic></record_update>]]></payload>
+<payload_hash>1870682127</payload_hash>
+<remote_update_set display_value="Income Project">995f93812f910110f564837cf699b6f3</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-25 17:51:14</sys_created_on>
+<sys_id>dd5f93812f910110f564837cf699b6f4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e919ea20e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-25 17:51:14</sys_updated_on>
+<table/>
+<target_name>integration_user</target_name>
+<type>Basic Auth Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>a3bfa685e511011030fdc880779d992d</update_guid>
+<update_guid_history>a3bfa685e511011030fdc880779d992d:1870682127</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
