@@ -75,3 +75,16 @@ Response : - null
 
 Target Instance Configuration : - 
 
+Scripted Rest API : - Inbound from Other Instance
+Scripted Rest Resource : - Create Payslip details
+Method :- POST
+Resource Path : - /api/87451/inbound_from_other_instance  (Same should be used above in the REST Message from Source to hit)
+
+Script : - 
+
+//Capture Logs
+
+var ga = new GlideRecord("u_inbound_logs");
+	ga.initialize();
+	ga.setValue('u_payload',JSON.stringify(req));
+	ga.insert();
