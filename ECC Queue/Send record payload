@@ -4,7 +4,7 @@ var sendRec = new RecDet_SI().details(current , current.operation() , current.ge
 
 SI : - 
 
-var RecDet_SI = Class.create();
+	var RecDet_SI = Class.create();
 RecDet_SI.prototype = {
     initialize: function() {
 		this._log = new GSLog('snw.outbound.report','RecDet_SI');
@@ -33,7 +33,8 @@ RecDet_SI.prototype = {
 		delete reqBody.sys_mod_count; // If I want to delete a field from existing request which gets added to the payload
 		
         var outMsg = new sn_ws.RESTMessageV2('Outbound to Reporting','Send to Reporting');
-		outMsg.setEndpoint('https://dev31651.service-now.com');
+		outMsg.setEndpoint('https://dev75341.service-now.com/api/87451/inbound_from_other_instance');
+		//outMsg.setRequestHeader('api-key',gs.getProperty('snw.outbound.report'));
 		outMsg.setRequestBody(JSON.stringify(reqBody));
 		outMsg.setEccParameter('skip_sensor',true);
         var response = outMsg.executeAsync();
