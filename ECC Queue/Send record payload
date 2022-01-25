@@ -1,3 +1,15 @@
+REST MESSAGE : - 
+
+Name (REST Message) : - Outbound to Reporting
+EndPoint : - https://dev75341.service-now.com/api/87451/inbound_from_other_instance (This should be same to other instance endpoint)
+Authentication type :- Basic 
+Basic auth profile : - integration_user (user with same name and password to be present in other instance)
+http method : - POST (As you want to create a new record in a separate instance so use POST)
+Name (Name of Method) : - Send to Reporting
+
+
+
+
 After Update/ Insert BR : - 
 
 var sendRec = new RecDet_SI().details(current , current.operation() , current.getTableName());
@@ -7,7 +19,7 @@ SI : -
 	var RecDet_SI = Class.create();
 RecDet_SI.prototype = {
     initialize: function() {
-		this._log = new GSLog('snw.outbound.report','RecDet_SI');
+		this._log = new GSLog('snw.outbound.report','RecDet_SI');(Create a new property and use GSLog for logging purpose , Script Include)
     },
 	
 	details : function(recObj , operation , tableName){
@@ -58,3 +70,8 @@ Request : -
 ECC Request {"tableName":"u_my_payslip","operation":"insert","u_income":"50009","sys_updated_by":"admin","sys_created_on":"2022-01-23 09:02:40","sys_updated_on":"2022-01-23 09:02:40","sys_created_by":"admin","u_month":"October"}
 
 Response : - null
+
+
+
+Target Instance Configuration : - 
+
