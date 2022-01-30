@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-01-30 11:15:00">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Salary Updates</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>775bc79197518110caab797e6253af7c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>7594ff2a97d90110caab797e6253af54</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_5365802d97d18110caab797e6253afea</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="5365802d97d18110caab797e6253afea" sys_domain="global" table="u_technician_details" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:18:22</sys_created_on><sys_id>3fe5c06d97d18110caab797e6253afe6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_technician_details" sys_domain="global" view="Default view">5365802d97d18110caab797e6253afea</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:18:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_phone_number</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:18:22</sys_created_on><sys_id>b3e5c06d97d18110caab797e6253afe7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_technician_details" sys_domain="global" view="Default view">5365802d97d18110caab797e6253afea</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:18:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_region</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:18:22</sys_created_on><sys_id>37e5c06d97d18110caab797e6253afe7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_technician_details" sys_domain="global" view="Default view">5365802d97d18110caab797e6253afea</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:18:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_technician_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:16:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5365802d97d18110caab797e6253afea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_technician_details</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_5365802d97d18110caab797e6253afea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:16:09</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1849301711</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>31943b6697dd0110caab797e6253afe6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f763d10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>7be5c06dd8d181107f164db974917ae8</update_guid>
+<update_guid_history>7be5c06dd8d181107f164db974917ae8:1849301711,9f654c2d5ed18110df1841783e9216e7:1342346310</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_technician_details_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_technician_details"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_technician_details&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-26 15:15:50&lt;/sys_created_on&gt;&lt;sys_id&gt;6e550c2d97d18110caab797e6253af32&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_technician_details&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_technician_details_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-26 15:15:50&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1725646365</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>3194ff2a97d90110caab797e6253af56</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f512520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>2e550c2d88d181106c2e65b66e53ed4d</update_guid>
+<update_guid_history>2e550c2d88d181106c2e65b66e53ed4d:-1725646365</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_9a550c2d97d18110caab797e6253af13</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Technician Details</name><order/><roles>u_technician_details_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9a550c2d97d18110caab797e6253af13</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technician Details</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_9a550c2d97d18110caab797e6253af13</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:49</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>-618664238</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>35943b6697dd0110caab797e6253afe5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f50f9d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table/>
+<target_name>Technician Details</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>a6550c2d6ad1811040613c229e053015</update_guid>
+<update_guid_history>a6550c2d6ad1811040613c229e053015:-618664238</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_auth_profile_basic_5743e7de97910110caab797e6253af3a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic"><sys_auth_profile_basic action="INSERT_OR_UPDATE"><name>integration_user</name><password>aeU2Dyef+pGD7WsPq8f2kQ==</password><sys_class_name>sys_auth_profile_basic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-29 15:21:17</sys_created_on><sys_id>5743e7de97910110caab797e6253af3a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>integration_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_auth_profile_basic_5743e7de97910110caab797e6253af3a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-29 15:21:17</sys_updated_on><username>integration_user</username></sys_auth_profile_basic></record_update>]]></payload>
+<payload_hash>1870682127</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>3594ff2a97d90110caab797e6253af55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17ea66d24620000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table/>
+<target_name>integration_user</target_name>
+<type>Basic Auth Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>37532bdece910110094a06a4eb28154c</update_guid>
+<update_guid_history>37532bdece910110094a06a4eb28154c:1870682127</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_783ee61a97110110caab797e6253af05</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_payslip_status&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="u_payslip_status"&gt;u_acceptance_by_user!=Initial Payment^EQ&lt;item display_value="Initial Payment" endquery="false" field="u_acceptance_by_user" goto="false" newquery="false" operator="!=" or="false" value="Initial Payment"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Trigger event on accept field change&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+ new Payslip_SI().sendTransaction(current);
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-29 11:30:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;783ee61a97110110caab797e6253af05&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Trigger event on accept field change&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_783ee61a97110110caab797e6253af05&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-29 11:32:31&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=783ee61a97110110caab797e6253af05"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-421443546</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>3594ff2a97d90110caab797e6253af58</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17ea59bb3650000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_payslip_status</table>
+<target_name>Trigger event on accept field change</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>b80f2e1ac611011084f8f60c926e167a</update_guid>
+<update_guid_history>b80f2e1ac611011084f8f60c926e167a:-421443546,fcbee6d6c0110110d3651afd20904b2b:-1538084533,2b8eea1a30110110cf688a11a1309765:-1687742146</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6e550c2d97d18110caab797e6253af23</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:49</sys_created_on><sys_id>6e550c2d97d18110caab797e6253af23</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_technician_details.u_technician_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_technician_details">ae550c2d97d18110caab797e6253af20</sys_security_acl><sys_update_name>sys_security_acl_role_6e550c2d97d18110caab797e6253af23</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:49</sys_updated_on><sys_user_role display_value="u_technician_details_user" name="u_technician_details_user">da55c82d97d18110caab797e6253aff6</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1850072216</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>39943b6697dd0110caab797e6253afe4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f510800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>u_technician_details.u_technician_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>22550c2d24d18110b9fb7d471e4c0526</update_guid>
+<update_guid_history>22550c2d24d18110b9fb7d471e4c0526:-1850072216</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_technician_details__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Technician Details" language="en" table="u_technician_details"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Technician Details</label><language>en</language><name>u_technician_details</name><plural>Technician Details</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:50</sys_created_on><sys_id>e2550c2d97d18110caab797e6253af3c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technician Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_technician_details__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:50</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>2123297538</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>3994ff2a97d90110caab797e6253af57</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f512670000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>62550c2d52d18110107457aca8e0264f</update_guid>
+<update_guid_history>62550c2d52d18110107457aca8e0264f:2123297538</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_66550c2d97d18110caab797e6253af19</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_technician_details</description><name>u_technician_details</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:49</sys_created_on><sys_id>66550c2d97d18110caab797e6253af19</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_technician_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_66550c2d97d18110caab797e6253af19</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:49</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1308407747</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>3d943b6697dd0110caab797e6253afe3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f5100d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>u_technician_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>26550c2d51d18110b2345b8249b1521c</update_guid>
+<update_guid_history>26550c2d51d18110b2345b8249b1521c:1308407747</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_payslip_status_u_technician_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_technician" label="Technician" language="en" table="u_payslip_status"><sys_documentation action="INSERT_OR_UPDATE"><element>u_technician</element><help/><hint/><label>Technician</label><language>en</language><name>u_payslip_status</name><plural>Technicians</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:29:46</sys_created_on><sys_id>ea8880ed97d18110caab797e6253af74</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technician</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_payslip_status_u_technician_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:29:46</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>725893505</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>3d94ff2a97d90110caab797e6253af56</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e9701d33a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_payslip_status</table>
+<target_name>Payslip Status.Technician</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>628880ed12d18110a24b4018d9d48b91</update_guid>
+<update_guid_history>628880ed12d18110a24b4018d9d48b91:725893505</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e2550c2d97d18110caab797e6253af1d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:49</sys_created_on><sys_id>e2550c2d97d18110caab797e6253af1d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_technician_details.u_technician_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_technician_details">66550c2d97d18110caab797e6253af19</sys_security_acl><sys_update_name>sys_security_acl_role_e2550c2d97d18110caab797e6253af1d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:49</sys_updated_on><sys_user_role display_value="u_technician_details_user" name="u_technician_details_user">da55c82d97d18110caab797e6253aff6</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>942705774</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>71943b6697dd0110caab797e6253afe5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f510430000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>u_technician_details.u_technician_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>ee550c2d40d181100c60f26778cf9b1f</update_guid>
+<update_guid_history>ee550c2d40d181100c60f26778cf9b1f:942705774</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_5e550c2d97d18110caab797e6253af0f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Technician Details">de55c82d97d18110caab797e6253afff</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Technician Details</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_technician_details</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>u_technician_details_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5e550c2d97d18110caab797e6253af0f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technician Details</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_5e550c2d97d18110caab797e6253af0f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:49</sys_updated_on><timeline_page/><title>Technician Details</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>2067750215</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>7194ff2a97d90110caab797e6253af55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f50f720000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>1a550c2dd5d181102517d18910cc5612</update_guid>
+<update_guid_history>1a550c2dd5d181102517d18910cc5612:2067750215</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_791e725a97110110caab797e6253af26</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Other Instance Connection [ Default GET ]</qualified_name><rest_endpoint>https://dev31650.service-now.com/api/272755/update_record</rest_endpoint><rest_message display_value="Other Instance Connection">ef58361297510110caab797e6253afff</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-29 12:38:24</sys_created_on><sys_id>791e725a97110110caab797e6253af26</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_791e725a97110110caab797e6253af26</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-29 12:38:24</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-1713391128</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>7194ff2a97d90110caab797e6253af58</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17ea5d805ad0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table/>
+<target_name>Default GET</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>3d1e725aa711011084daa13bb2927b28</update_guid>
+<update_guid_history>3d1e725aa711011084daa13bb2927b28:-1713391128</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_ae550c2d97d18110caab797e6253af2c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_technician_details</description><name>u_technician_details</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:50</sys_created_on><sys_id>ae550c2d97d18110caab797e6253af2c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_technician_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_ae550c2d97d18110caab797e6253af2c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:50</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1748507173</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>75943b6697dd0110caab797e6253afe4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f510d60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>u_technician_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>ee550c2d65d181105b7098133c2db12e</update_guid>
+<update_guid_history>ee550c2d65d181105b7098133c2db12e:1748507173</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_technician_details_u_region_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_region" label="Region" language="en" table="u_technician_details"><sys_documentation action="INSERT_OR_UPDATE"><element>u_region</element><help/><hint/><label>Region</label><language>en</language><name>u_technician_details</name><plural>Regions</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:18:22</sys_created_on><sys_id>e7e5c06d97d18110caab797e6253afcd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Region</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_technician_details_u_region_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:18:22</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2126791587</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>7594ff2a97d90110caab797e6253af57</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f763a40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details.Region</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>73e5c06d24d181108a406cfa25b5cae6</update_guid>
+<update_guid_history>73e5c06d24d181108a406cfa25b5cae6:-2126791587</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_bf94713897550110caab797e6253af2b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;Create Payslip details&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	
+	var req = request.body.data;
+	
+	var ga = new GlideRecord("u_inbound_logs");
+	ga.initialize();
+	ga.setValue('u_payload',JSON.stringify(req));
+	ga.insert();
+	
+	var responseRec = new CreateRecord_SI().recCreate(req);
+	gs.log("Response " + responseRec);
+    return responseRec;
+	
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/87451/inbound_from_other_instance&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;false&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;false&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-24 15:27:49&lt;/sys_created_on&gt;&lt;sys_id&gt;bf94713897550110caab797e6253af2b&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create Payslip details&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_bf94713897550110caab797e6253af2b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-26 17:56:15&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="Inbound from Other Instance"&gt;62ff95b897150110caab797e6253af33&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>895342029</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>79943b6697dd0110caab797e6253afe6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e9787f0f20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table/>
+<target_name>Create Payslip details</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>e41a6c21a15581106e1097131b749d83</update_guid>
+<update_guid_history>e41a6c21a15581106e1097131b749d83:895342029,a26f4755d451811024794e97647a5c0f:704859843,ab5dcb9121518110bce6531d40c70f19:2119549194,545eb289ac154110d22c249120f6fdc2:1884021035,555dbac9db154110b60f4e82dbc21eb6:1257018619,191df649b2154110168e8f685b11f67b:-680439375,c01bf2899a154110460e9f153a020df3:-837118038,810af64982154110aa4eff2ff27d2476:-2054238084,b1093e8565154110e4d7491ea25e2895:-391214130,0d48b2097115411029d2c05d5292cd6d:-151806562,d3b6be85901541105665b536cc1247bb:176366736,1096bec11d1541103599fe4d3aa85fe9:1006144724,fb663e8553154110817c7ef9932c7d8f:-385933231,5a2af13cf4550110cdafd67e57fd145f:-379705756,26e5f5385e550110aefeddba7be2c022:332179533,a6e475741d5501105fe63ac4c3304a00:731989375</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_de55c82d97d18110caab797e6253afff</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Technician Details</name><order>100</order><roles>u_technician_details_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>de55c82d97d18110caab797e6253afff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technician Details</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_de55c82d97d18110caab797e6253afff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:49</sys_updated_on><title>Technician Details</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>68412302</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>7994ff2a97d90110caab797e6253af54</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f50f330000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table/>
+<target_name>Technician Details</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>de550c2da2d1811025aefadaf0d63d0e</update_guid>
+<update_guid_history>de550c2da2d1811025aefadaf0d63d0e:68412302</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_technician_details_u_region</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_region" table="u_technician_details"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Region</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_region</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_technician_details</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:18:22</sys_created_on><sys_id>a7e5c06d97d18110caab797e6253afcb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Region</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_technician_details_u_region</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:18:22</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1526473215</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>7994ff2a97d90110caab797e6253af56</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f763850000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details.Region</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>63e5c06dacd18110a46a6fac5bc421e2</update_guid>
+<update_guid_history>63e5c06dacd18110a46a6fac5bc421e2:1526473215</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_26550c2d97d18110caab797e6253af16</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Technician Details">9a550c2d97d18110caab797e6253af13</application><filter/><name>Technician Details</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_technician_details_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>26550c2d97d18110caab797e6253af16</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technician Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_26550c2d97d18110caab797e6253af16</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:49</sys_updated_on><table>u_technician_details</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>217864025</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>7d943b6697dd0110caab797e6253afe5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f50fc80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>66550c2dd9d18110488b68b50f02d218</update_guid>
+<update_guid_history>66550c2dd9d18110488b68b50f02d218:217864025</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_payslip_status_u_technician</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_technician" table="u_payslip_status"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Technician</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_technician</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>u_payslip_status</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="u_technician_details">u_technician_details</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:29:46</sys_created_on><sys_id>ee8880ed97d18110caab797e6253af72</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technician</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_payslip_status_u_technician</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:29:46</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1094826342</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>7d94ff2a97d90110caab797e6253af55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e9701d32d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_payslip_status</table>
+<target_name>Payslip Status.Technician</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6e8880edffd18110dc75d1da06affb8f</update_guid>
+<update_guid_history>6e8880edffd18110dc75d1da06affb8f:-1094826342</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_b586be8597154110caab797e6253af11</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.CreateRecord_SI&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;CreateRecord_SI&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var CreateRecord_SI = Class.create();
+CreateRecord_SI.prototype = {
+    initialize: function() {
+    },
+	
+	recCreate : function(request){
+		
+		return new buildBody().buildJSON(request);
+	},
+
+    type: 'CreateRecord_SI'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-25 14:55:05&lt;/sys_created_on&gt;&lt;sys_id&gt;b586be8597154110caab797e6253af11&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;CreateRecord_SI&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b586be8597154110caab797e6253af11&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-26 11:25:56&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1283738529</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>7d94ff2a97d90110caab797e6253af58</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e962297590000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table/>
+<target_name>CreateRecord_SI</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>3eb0dfd113518110cb1a164c6e0b1581</update_guid>
+<update_guid_history>3eb0dfd113518110cb1a164c6e0b1581:1283738529,d0fd0315fe5181107b65d4789868b015:-1091179289,bc07b2c13c154110eca41a3ddc3fb0d5:-1803628276</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_ae550c2d97d18110caab797e6253af26</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_technician_details</description><name>u_technician_details</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:50</sys_created_on><sys_id>ae550c2d97d18110caab797e6253af26</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_technician_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_ae550c2d97d18110caab797e6253af26</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:50</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-229225133</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>b1943b6697dd0110caab797e6253afe4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f510a00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>u_technician_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>ee550c2db7d1811065dd11c7c3bc5528</update_guid>
+<update_guid_history>ee550c2db7d1811065dd11c7c3bc5528:-229225133</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_technician_details_u_phone_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_phone_number" label="Phone Number" language="en" table="u_technician_details"><sys_documentation action="INSERT_OR_UPDATE"><element>u_phone_number</element><help/><hint/><label>Phone Number</label><language>en</language><name>u_technician_details</name><plural>Phone Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:18:22</sys_created_on><sys_id>6fe5c06d97d18110caab797e6253afd1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Phone Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_technician_details_u_phone_number_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:18:22</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-267276147</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>b194ff2a97d90110caab797e6253af57</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f763980000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details.Phone Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>fbe5c06db2d181102983d3366daf5de4</update_guid>
+<update_guid_history>fbe5c06db2d181102983d3366daf5de4:-267276147</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_da55c82d97d18110caab797e6253aff6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_technician_details_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:49</sys_created_on><sys_id>da55c82d97d18110caab797e6253aff6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_technician_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_da55c82d97d18110caab797e6253aff6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:49</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-627265914</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>b5943b6697dd0110caab797e6253afe6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f50e990000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table/>
+<target_name>u_technician_details_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>5a55c82d7ed1811043b1622f8bbda0fb</update_guid>
+<update_guid_history>5a55c82d7ed1811043b1622f8bbda0fb:-627265914</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_technician_details_u_phone_number</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_phone_number" table="u_technician_details"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Phone Number</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_phone_number</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_technician_details</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:18:22</sys_created_on><sys_id>2fe5c06d97d18110caab797e6253afcf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Phone Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_technician_details_u_phone_number</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:18:22</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1333065133</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>b594ff2a97d90110caab797e6253af56</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f7636f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details.Phone Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a7e5c06dffd18110a29669e577f9bfe0</update_guid>
+<update_guid_history>a7e5c06dffd18110a29669e577f9bfe0:-1333065133</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_technician_details_sys_ref_list</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_technician_details" version="2" view="sys_ref_list"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_name</element><list_id display_value="u_technician_details" element="NULL" name="u_technician_details" parent="NULL" relationship="NULL" sys_domain="global" view="6badd262a5300110c0a0e1db2cdc950c">5ba840ad97d18110caab797e6253af6b</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:30:22</sys_created_on><sys_id>17a840ad97d18110caab797e6253af6c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:30:22</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_phone_number</element><list_id display_value="u_technician_details" element="NULL" name="u_technician_details" parent="NULL" relationship="NULL" sys_domain="global" view="6badd262a5300110c0a0e1db2cdc950c">5ba840ad97d18110caab797e6253af6b</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:30:22</sys_created_on><sys_id>97a840ad97d18110caab797e6253af6c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:30:22</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_region</element><list_id display_value="u_technician_details" element="NULL" name="u_technician_details" parent="NULL" relationship="NULL" sys_domain="global" view="6badd262a5300110c0a0e1db2cdc950c">5ba840ad97d18110caab797e6253af6b</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:30:22</sys_created_on><sys_id>1ba840ad97d18110caab797e6253af6c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:30:22</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_technician_details</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:30:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5ba840ad97d18110caab797e6253af6b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_technician_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_technician_details_sys_ref_list</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:30:22</sys_updated_on><sys_user/><view display_value="Reference List" name="sys_ref_list">6badd262a5300110c0a0e1db2cdc950c</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-1690041743</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>b9943b6697dd0110caab797e6253afe5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e97025f9b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>27a840adced18110fb4461f105f3326e</update_guid>
+<update_guid_history>27a840adced18110fb4461f105f3326e:-1690041743,9ba840ad02d18110b7110c7423896c68:1874664142</update_guid_history>
+<update_set display_value=""/>
+<view>sys_ref_list</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_5905082d97d18110caab797e6253af4b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Technician Details</label><live_feed_enabled>false</live_feed_enabled><name>u_technician_details</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:49</sys_created_on><sys_id>5905082d97d18110caab797e6253af4b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technician Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_5905082d97d18110caab797e6253af4b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:49</sys_updated_on><update_access>false</update_access><user_role display_value="u_technician_details_user" name="u_technician_details_user">da55c82d97d18110caab797e6253aff6</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-560152217</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>b994ff2a97d90110caab797e6253af55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f5127a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>a6550c2dfbd1811026d6d14265454250</update_guid>
+<update_guid_history>a6550c2dfbd1811026d6d14265454250:-560152217</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_860e031597518110caab797e6253af18</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.buildBody&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;buildBody&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var buildBody = Class.create();
+buildBody.prototype = {
+    initialize: function() {
+    },
+
+	buildJSON : function(request){
+		
+		var recObj = new GlideRecord('u_payslip_status');
+		recObj.initialize();
+		recObj.u_salary = request.u_income;
+		recObj.u_income = request.u_incomeid;
+		recObj.u_month = request.u_month;
+		recObj.u_acceptance_by_user = request.u_payslip_acceptance;
+		var number = recObj.insert();
+		
+	    if(JSUtil.notNil(number))
+			
+			return "Success";
+		else
+			return "Failure to create the record";
+		
+	},
+	
+    type: 'buildBody'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-26 11:16:08&lt;/sys_created_on&gt;&lt;sys_id&gt;860e031597518110caab797e6253af18&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;buildBody&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_860e031597518110caab797e6253af18&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-26 14:41:59&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>737367144</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>b994ff2a97d90110caab797e6253af58</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96d613710000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table/>
+<target_name>buildBody</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>ee9dfb9d0c91811047196a43d7ded30d</update_guid>
+<update_guid_history>ee9dfb9d0c91811047196a43d7ded30d:737367144,510737911ad1811089df8d3e471974e6:1098232968,787b9fd95f51811010a06a2f599180d9:-139066360,331bdf5d8a5181107a7137760df65077:1046904233,ead857d146518110ba1fbf95202511bd:434501219,df7e87d1555181107e67dbb985e0ddcf:1928575469</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6e550c2d97d18110caab797e6253af2f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:50</sys_created_on><sys_id>6e550c2d97d18110caab797e6253af2f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_technician_details.u_technician_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_technician_details">ae550c2d97d18110caab797e6253af2c</sys_security_acl><sys_update_name>sys_security_acl_role_6e550c2d97d18110caab797e6253af2f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:50</sys_updated_on><sys_user_role display_value="u_technician_details_user" name="u_technician_details_user">da55c82d97d18110caab797e6253aff6</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>250635099</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>bd943b6697dd0110caab797e6253afe4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f510ee0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>u_technician_details.u_technician_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>22550c2df6d181104d922d2713afc132</update_guid>
+<update_guid_history>22550c2df6d181104d922d2713afc132:250635099</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_116adf1a97910110caab797e6253af99</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile display_value="integration_user">5743e7de97910110caab797e6253af3a</basic_auth_profile><basic_auth_user/><content/><function_name>Update Value</function_name><http_method>patch</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Other Instance Connection [ Update Value ]</qualified_name><rest_endpoint>https://dev31650.service-now.com/api/272755/update_record</rest_endpoint><rest_message display_value="Other Instance Connection">ef58361297510110caab797e6253afff</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-29 14:43:28</sys_created_on><sys_id>116adf1a97910110caab797e6253af99</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Update Value</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_116adf1a97910110caab797e6253af99</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-29 15:21:27</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-1502872958</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>bd94ff2a97d90110caab797e6253af57</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17ea66d4ab30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table/>
+<target_name>Update Value</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>da636b5e5391011002d7dae55d1a2e5e</update_guid>
+<update_guid_history>da636b5e5391011002d7dae55d1a2e5e:-1502872958,c6badb1aac910110a982dbdbf8062eeb:1489426264</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_5a08071d97118110caab797e6253afa5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="5a08071d97118110caab797e6253afa5" sys_domain="global" table="u_payslip_status" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:30:01</sys_created_on><sys_id>1e98cc6d97d18110caab797e6253afdc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_payslip_status" sys_domain="global" view="Default view">5a08071d97118110caab797e6253afa5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:30:01</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_income</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:30:01</sys_created_on><sys_id>9e98cc6d97d18110caab797e6253afdc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_payslip_status" sys_domain="global" view="Default view">5a08071d97118110caab797e6253afa5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:30:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_valid_user</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:30:01</sys_created_on><sys_id>1298cc6d97d18110caab797e6253afdd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_payslip_status" sys_domain="global" view="Default view">5a08071d97118110caab797e6253afa5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:30:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_salary</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:30:01</sys_created_on><sys_id>9298cc6d97d18110caab797e6253afdd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_payslip_status" sys_domain="global" view="Default view">5a08071d97118110caab797e6253afa5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:30:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:30:01</sys_created_on><sys_id>1698cc6d97d18110caab797e6253afdd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_payslip_status" sys_domain="global" view="Default view">5a08071d97118110caab797e6253afa5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:30:01</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_month</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:30:01</sys_created_on><sys_id>9698cc6d97d18110caab797e6253afdd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_payslip_status" sys_domain="global" view="Default view">5a08071d97118110caab797e6253afa5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:30:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_acceptance_by_user</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:30:01</sys_created_on><sys_id>1a98cc6d97d18110caab797e6253afdd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_payslip_status" sys_domain="global" view="Default view">5a08071d97118110caab797e6253afa5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:30:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_technician</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:30:01</sys_created_on><sys_id>9a98cc6d97d18110caab797e6253afdd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_payslip_status" sys_domain="global" view="Default view">5a08071d97118110caab797e6253afa5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:30:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_payslip_status</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 10:47:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5a08071d97118110caab797e6253afa5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_payslip_status</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_5a08071d97118110caab797e6253afa5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 10:47:56</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-2024018710</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>f1943b6697dd0110caab797e6253afe6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e97020e060000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_payslip_status</table>
+<target_name>Payslip Status</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>9298cc6d00d18110bb2e1e6b40c493df</update_guid>
+<update_guid_history>9298cc6d00d18110bb2e1e6b40c493df:-2024018710,a28880ed75d18110bfa482fb9bcef594:-1855548054,671cdb9dde5181101442a2e0bcedb131:1399743728,bec80fdd2a11811057f359ba43d3be9a:-1174577317,da08c3ddc31181101c6ca3c4faf3758a:2088189142</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_technician_details_u_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_name" table="u_technician_details"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_name</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_technician_details</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:18:22</sys_created_on><sys_id>efe5c06d97d18110caab797e6253af4a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_technician_details_u_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:18:22</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1011809265</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>f194ff2a97d90110caab797e6253af56</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f7635c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details.Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>ebe5c06de7d181103624a7b769ea9bde</update_guid>
+<update_guid_history>ebe5c06de7d181103624a7b769ea9bde:1011809265</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_u_payslip_status_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_payslip_status" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_income</element><list_id display_value="u_payslip_status" element="NULL" name="u_payslip_status" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">caac8b9197518110caab797e6253afea</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 11:08:08</sys_created_on><sys_id>86ac8b9197518110caab797e6253afeb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 11:08:08</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_valid_user</element><list_id display_value="u_payslip_status" element="NULL" name="u_payslip_status" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">caac8b9197518110caab797e6253afea</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 11:08:08</sys_created_on><sys_id>0aac8b9197518110caab797e6253afeb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 11:08:08</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_salary</element><list_id display_value="u_payslip_status" element="NULL" name="u_payslip_status" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">caac8b9197518110caab797e6253afea</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 11:08:08</sys_created_on><sys_id>8aac8b9197518110caab797e6253afeb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 11:08:08</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_month</element><list_id display_value="u_payslip_status" element="NULL" name="u_payslip_status" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">caac8b9197518110caab797e6253afea</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 11:08:08</sys_created_on><sys_id>0eac8b9197518110caab797e6253afeb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 11:08:08</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_acceptance_by_user</element><list_id display_value="u_payslip_status" element="NULL" name="u_payslip_status" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">caac8b9197518110caab797e6253afea</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 11:08:08</sys_created_on><sys_id>8eac8b9197518110caab797e6253afeb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 11:08:08</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_payslip_status</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 11:08:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>caac8b9197518110caab797e6253afea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_payslip_status</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_u_payslip_status_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 11:08:08</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>985975661</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>f5943b6697dd0110caab797e6253afe5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96124abe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_payslip_status</table>
+<target_name>Payslip Status</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>0aac87d13b5181109524deeb71bd88c8</update_guid>
+<update_guid_history>0aac87d13b5181109524deeb71bd88c8:985975661,f9aac3518a518110a92d9b37c8f9550c:129903089</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_u_payslip_status_u_acceptance_by_user</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_acceptance_by_user" table="u_payslip_status" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>u_acceptance_by_user</element><name>u_payslip_status</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-29 11:06:21</sys_created_on><sys_id>a909a61697110110caab797e6253af8d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_acceptance_by_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_choice_u_payslip_status_u_acceptance_by_user</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-29 11:06:21</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_acceptance_by_user</element><hint/><inactive>true</inactive><label>-TBDTARGET-u_payslip_status</label><language>en</language><name>u_payslip_status</name><sequence>0</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-29 11:06:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2d09a61697110110caab797e6253af91</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-29 11:06:45</sys_updated_on><value>-TBDTARGET-u_payslip_status</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_acceptance_by_user</element><hint/><inactive>false</inactive><label>Initial Payment</label><language>en</language><name>u_payslip_status</name><sequence>0</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-29 11:06:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dd09a61697110110caab797e6253af8c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-29 11:06:21</sys_updated_on><value>Initial Payment</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_acceptance_by_user</element><hint/><inactive>false</inactive><label>Salary Incorrect</label><language>en</language><name>u_payslip_status</name><sequence>1</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-29 11:06:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a509a61697110110caab797e6253af8f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-29 11:06:21</sys_updated_on><value>Salary Incorrect</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_acceptance_by_user</element><hint/><inactive>false</inactive><label>Not Received</label><language>en</language><name>u_payslip_status</name><sequence>2</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-29 11:06:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6909a61697110110caab797e6253af90</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-29 11:06:21</sys_updated_on><value>Not Received</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_acceptance_by_user</element><hint/><inactive>false</inactive><label>Check with HR</label><language>en</language><name>u_payslip_status</name><sequence>3</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-29 11:07:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d539ea1697110110caab797e6253af1e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-29 11:07:10</sys_updated_on><value>Check with HR</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_acceptance_by_user</element><hint/><inactive>false</inactive><label>Yes</label><language>en</language><name>u_payslip_status</name><sequence>4</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-29 11:07:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d939ea1697110110caab797e6253af1f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-29 11:07:10</sys_updated_on><value>Yes</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-379205563</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>f594ff2a97d90110caab797e6253af55</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17ea5847ba10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_payslip_status</table>
+<target_name>Payslip Status.Acceptance by User</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>1d39ea167a11011015f5541d17712f21</update_guid>
+<update_guid_history>1d39ea167a11011015f5541d17712f21:-379205563,1719ea12211101108305b63c2c3ac97d:-979961680,6d09a616b9110110568263bb785ea693:-1224549900</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_63ccaad297110110caab797e6253af96</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.Payslip_SI&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;Payslip_SI&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var Payslip_SI = Class.create();
+Payslip_SI.prototype = {
+    initialize: function() {
+    },
+	
+	sendTransaction : function(current){
+	 
+		var reqBody = {};
+		
+		var fields = current.getFields();
+		for(var i=0;i&lt;fields.size;i++) {
+			
+			var field = fields.get(i);
+			var key = field.getName();
+			if(field.hasValue()){
+				reqBody[key] = field.getValue();
+			}
+		}
+		
+		
+		
+		var restCall = new RESTMessageV2('Other Instance Connection','Update Value');
+	    restCall.setEndPoint('https://dev31650.service-now.com/api/272755/update_record');
+		restCall.setRequestBody(JSON.stringify(reqBody));
+		restCall.executeAsync();
+		
+	},	
+    type: 'Payslip_SI'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-29 11:28:43&lt;/sys_created_on&gt;&lt;sys_id&gt;63ccaad297110110caab797e6253af96&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Payslip_SI&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_63ccaad297110110caab797e6253af96&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-29 15:09:38&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1968296648</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>f594ff2a97d90110caab797e6253af58</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17ea66278fa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table/>
+<target_name>Payslip_SI</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>c1b06b5e2d9101102d2e7240d3a1eb42</update_guid>
+<update_guid_history>c1b06b5e2d9101102d2e7240d3a1eb42:-1968296648,57cb139a23910110ea9bd6b8f4a5ab08:-338681723,852e661acf11011058e65f642ce71fda:1572716004</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6e550c2d97d18110caab797e6253af29</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:50</sys_created_on><sys_id>6e550c2d97d18110caab797e6253af29</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_technician_details.u_technician_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_technician_details">ae550c2d97d18110caab797e6253af26</sys_security_acl><sys_update_name>sys_security_acl_role_6e550c2d97d18110caab797e6253af29</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:50</sys_updated_on><sys_user_role display_value="u_technician_details_user" name="u_technician_details_user">da55c82d97d18110caab797e6253aff6</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1855575314</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>f9943b6697dd0110caab797e6253afe4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f510ba0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>u_technician_details.u_technician_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>22550c2d5ad18110aacbaad6d545f62c</update_guid>
+<update_guid_history>22550c2d5ad18110aacbaad6d545f62c:-1855575314</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_ef58361297510110caab797e6253afff</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>Other Instance Connection</name><oauth2_profile/><protocol_name/><rest_endpoint>https://dev31650.service-now.com/api/272755/update_record</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-29 12:38:24</sys_created_on><sys_id>ef58361297510110caab797e6253afff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Other Instance Connection</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_ef58361297510110caab797e6253afff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-29 12:38:24</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>-1289365375</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>f994ff2a97d90110caab797e6253af57</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17ea5d805c80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table/>
+<target_name>Other Instance Connection</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>711e725aab110110576ac2ef2321562a</update_guid>
+<update_guid_history>711e725aab110110576ac2ef2321562a:-1289365375</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_ae550c2d97d18110caab797e6253af20</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on u_technician_details</description><name>u_technician_details</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:15:49</sys_created_on><sys_id>ae550c2d97d18110caab797e6253af20</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_technician_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_ae550c2d97d18110caab797e6253af20</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:15:49</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1838672497</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>fd943b6697dd0110caab797e6253afe3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f510670000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>u_technician_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>ee550c2d7dd18110e9aa853e6198c122</update_guid>
+<update_guid_history>ee550c2d7dd18110e9aa853e6198c122:-1838672497</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_technician_details_u_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_name" label="Name" language="en" table="u_technician_details"><sys_documentation action="INSERT_OR_UPDATE"><element>u_name</element><help/><hint/><label>Name</label><language>en</language><name>u_technician_details</name><plural>Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 15:18:22</sys_created_on><sys_id>63e5c06d97d18110caab797e6253afc9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_technician_details_u_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-26 15:18:22</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>724209839</payload_hash>
+<remote_update_set display_value="Salary Updates">7594ff2a97d90110caab797e6253af54</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-01-30 11:15:00</sys_created_on>
+<sys_id>fd94ff2a97d90110caab797e6253af56</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17e96f7638d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-01-30 11:15:00</sys_updated_on>
+<table>u_technician_details</table>
+<target_name>Technician Details.Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>67e5c06d91d18110e9d3c1519592a5e3</update_guid>
+<update_guid_history>67e5c06d91d18110e9d3c1519592a5e3:724209839</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
